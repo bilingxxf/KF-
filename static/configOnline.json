@@ -1,0 +1,19 @@
+{
+  "url": "/api/v1/",
+  "a": "/api/v1/",
+  "tokenUrl":"/api/v1/",
+  "fileUrl":"/api/v1",
+  "promo_url" :"https://www.kf.com",
+  "phone_url":"/api/v1",
+  "advertiser_url":"/api/v1",
+  "recordqrUrl":"/api/v1/captcha/qrcode/msg/",
+  "userInfo":"/api/v1",
+  "moneybagInfoUrl":"",
+  "moneybagUrl":"",
+  "bibibagUrl":"/api/v1",
+  "moneybagRefreshUrl":"/api/v1/common/exchange/",
+  "bibideal_url":"/api/v1",
+  "rateUrl" : "/api/v1",
+  "code":"https://static.bitboole.com",
+  "img":""
+}

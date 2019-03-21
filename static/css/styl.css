@@ -1,0 +1,2597 @@
+.slot-item a {
+  font-size: 1rem;
+  color: #fff;
+  border-right: 1px solid #fff;
+  padding-right: 1.25rem;
+  margin-right: 1.25rem;
+}
+.slot-item a:hover {
+  color: #f3ba2f !important;
+  transition: all 0.3s ease-in-out;
+}
+/*钱包充值*/
+.recharge_box{
+  background-color: #272c39;
+  width: 100%;
+  height: 50rem;
+}
+.recharge_box .recharge{
+  width: 60rem;
+  padding: 0.5rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recharge_box .recharge-header{
+  height: 2.5rem;
+  border-bottom: 1px solid #272c39;
+  border-radius: 0.25rem;
+  background: #171a21;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.recharge_box .recharge-header a,.recharge-header span{
+  font-size: 0.7rem;
+  color: #999999;
+  line-height: 2.5rem;
+}
+/*充值主体内容样式*/
+.recharge_box .container{
+  width: 60rem;
+  height: 30rem;
+  background: #171a21;
+  padding: 0 1rem;
+}
+.recharge_box .title{
+  height: 3.55rem;
+  border-bottom: 1px solid #272c39;
+  padding-top: 1.55rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+  line-height: 0.9rem;
+}
+.recharge_box .USDT p,.USDT p a{
+  margin-top: 1.25rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  line-height: 0.7rem;
+}
+.recharge_box .USDT input{
+  width: 15rem;
+  height: 2.5rem;
+  margin-bottom: 1.25rem;
+  padding: 0 0.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 0.25rem;
+  background: rgba(0,0,0,0);
+  font-size: 0.7rem;
+  color: #f3ba2f;
+}
+.recharge_box .QRcode p{
+  margin-bottom: 0.9rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  line-height: 0.7rem;
+}
+.recharge_box .attention{
+  width: 25rem;
+  height: 2.75rem;
+  margin-top: 1.25rem;
+  font-size: 0.6rem;
+  color: #999999;
+}
+/*提现*/
+.withdrawCash .margin-top30{margin-top: 1.5rem;}
+.withdrawCash .margin-bottom-30{margin-bottom: 1.5rem;}
+.withdrawCash .lineh-50{line-height: 2.5rem;}
+.withdrawCash{
+  height: 100%;
+  width: 100%;
+  background: #272c39;
+}
+.withdrawCash .cash{
+  width: 60rem;
+  padding: 0.5rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.withdrawCash .cash-header{
+  height: 2.5rem;
+  border-bottom: 1px solid #272c39;
+  background: #171a21;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+.withdrawCash .cash-header a,.cash-header span{
+  font-size: 0.7rem;
+  color: #999999;
+  line-height: 2.5rem;
+}
+.withdrawCash .container{
+  width: 60rem;
+  height: 48rem;
+  background: #171a21;
+  padding: 0 1rem;
+  border-radius: 0.25rem;
+}
+.withdrawCash .title{
+  height: 3.55rem;
+  border-bottom: 1px solid #272c39;
+  padding-top: 1.55rem;
+  font-size: 0.8rem;
+  color: #ffffff;
+  line-height: 0.9rem;
+}
+/*充值主体内容*/
+.withdrawCash .address{
+  margin-top: 1.4rem;
+  margin-bottom: 1.75rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  line-height: 0.7rem;
+}
+/*form表单样式*/
+.withdrawCash .marginleft-30{
+  margin-left: 1.5rem;
+}
+.withdrawCash .margin-bottom30{
+  margin-bottom: 1.5rem;
+}
+.withdrawCash .text-14-fff{
+  font-size: 0.7rem;
+  color: #fff;
+}
+.withdrawCash .span-USDT{
+  font-size: 0.6rem;
+  color: #999999;
+}
+.withdrawCash .left{
+  display: inline-block;
+  width: 7.5rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  line-height: 0.7rem;
+}
+.withdrawCash .content p{
+  display: inline-block;
+}
+.withdrawCash .content p.p-underinput{
+  display: block;
+  margin-top: 0.85rem;
+  margin-left: 7.65rem;
+  font-size: 0.7rem;
+  color: #999999;
+}
+.withdrawCash .content input{
+  height: 2.5rem;
+  border: 1px solid #eeeeee;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #999999;
+  background: rgba(0,0,0,0);
+  padding: 0 0.5rem;
+}
+.withdrawCash .balance{
+  font-size: 0.7rem;
+  color: #07d08b;
+}
+.withdrawCash .balance span{font-size: 0.6rem;}
+/*按钮样式*/
+.withdrawCash .message-get{
+  width: 6rem;
+  height: 2.5rem;
+  margin-left: 1.5rem;
+  background: rgba(0,0,0,0);
+  border-radius: 0.25rem;
+  border: 1px solid #f3ba2f;
+  color: #f3ba2f;
+  outline: none;
+  cursor: pointer;
+}
+.withdrawCash .submit{
+  width: 22rem;
+  height: 2.5rem;
+  margin: 2rem 0 1.5rem 7.5rem;
+  background: #f3ba2f;
+  border-radius: 0.25rem;
+  border: 1px solid #f3ba2f;
+  color: #fffefe;
+  outline: none;
+  cursor: pointer;
+}
+.withdrawCash .attention{
+  width: 58.2rem;
+  height: 2rem;
+  font-size: 0.7rem;
+  color: #999999;
+}
+
+.withdrawCash input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+/*钱包-划转 OTC-划转 transfer-select white-select*/
+.transfer-select .ivu-select,
+.white-select .ivu-select{
+  height: 2rem;
+  margin-bottom: 1rem;
+  font-size: 0.6rem;
+}
+.whitetran .ivu-form-item-content{
+  height: 2rem;
+}
+.transfer-hei .ivu-form-item-content{
+  height: 2rem;
+}
+.transfer-select .ivu-select{color: #999;}
+.white-select .ivu-select{color: #333;}
+.transfer-select .ivu-select-single .ivu-select-selection,
+.white-select .ivu-select-single .ivu-select-selection{
+  height: 2rem;
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+  border-radius: 0.25rem;
+}
+.transfer-select .ivu-select-single .ivu-select-selection,
+.transfer-select .ivu-select-selection-focused,
+.transfer-select .ivu-select-selection:hover{border-color: #fff;}
+.white-select .ivu-select-single .ivu-select-selection,
+.white-select .ivu-select-selection-focused,
+.white-select .ivu-select-selection:hover{border-color: #f5f5f5;}
+.transfer-select .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.transfer-select .ivu-select-single .ivu-select-selection .ivu-select-selected-value,
+.white-select .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.white-select .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+  height: 2rem;
+  line-height: 2rem;
+  padding-left: 0.5rem;
+}
+.transfer-select .ivu-select-single .ivu-select-selection .ivu-select-placeholder{
+  color: #999;
+}
+.white-select .ivu-select-single .ivu-select-selection .ivu-select-placeholder{
+  color: #333;
+}
+.transfer-select .ivu-select-arrow{color: #fff;}
+.white-select .ivu-select-arrow{color: #333;}
+.transfer-select .ivu-select-dropdown,
+.white-select .ivu-select-dropdown{
+  max-height: 7rem;
+  margin-top: 0;
+  padding: 0.4rem 0 !important;
+  border-radius: 0.25rem;
+}
+.transfer-select .ivu-select-dropdown{background-color: #171a21;}
+.white-select .ivu-select-dropdown{background-color: #f5f5f5;}
+.transfer-select .ivu-select-not-found{color: #999;}
+.white-select .ivu-select-not-found{color: #333;}
+.transfer-select .ivu-select-item:hover,
+.white-select .ivu-select-item:hover{background: #f3ba2f;}
+.transfer-select .ivu-select-item,
+.white-select .ivu-select-item{
+  padding: 0.4rem 0.5rem;
+  height: 1.5rem;
+}
+.transfer-select .ivu-select-item{color: #fff;}
+.white-select .ivu-select-item{color: #333;}
+/*交易中心-交易记录dealrecord*/
+.dealrecord :-ms-input-placeholder {
+  color: #eee;
+}
+.dealrecord .ivu-col-span-12{
+  width: 5rem;
+}
+.dealrecord .ivu-select-single .ivu-select-selection{
+  height: 1.3rem;
+  line-height: 1.3rem;
+  border: 1px solid #eee;
+  background-color: rgba(0,0,0,0);
+  border-radius: 0.25rem;
+}
+.dealrecord .ivu-row,
+.dealrecord .ivu-col-span-12{
+  display: inline-block;
+}
+.dealrecord .ivu-select-single .ivu-select-selection .ivu-select-placeholder{
+  height: 1.3rem;
+  line-height: 1.3rem;
+}
+.dealrecord .ivu-input-icon{display: none;}
+.dealrecord .ivu-input-icon-normal+.ivu-input{
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  border: 1px solid #eee;
+  color: #eee;
+  border-radius: 0.25rem;
+  background: rgba(0,0,0,0);
+}
+.ddealrecord .ivu-btn-primary{
+  background-color: #f3ba2f;
+  border: none;
+}
+.dealrecord .ivu-btn{
+  height: 1.3rem;
+  width: 2.5rem;
+  margin-left: 1rem;
+  border-radius: 0.25rem;
+  padding: 0;
+}
+.dealrecord .ivu-select{
+  color: #eee;
+  font-size: 0.6rem;
+  margin-right: 1rem;
+}
+.dealrecord ::-webkit-input-placeholder {
+  color: #eee;
+}
+.dealrecord :-moz-placeholder {
+  color:#eee;
+}
+.dealrecord ::-moz-placeholder {
+  color: #eee;
+}
+
+.dealrecord .ivu-select-dropdown{
+  max-height: none;
+  margin: 0;
+  background-color: #272c39;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  overflow: hidden;
+}
+.dealrecord .ivu-select-item{
+  height: 1.3rem;
+  line-height: 1.3rem;
+  padding: 0;
+  background: #272c39;
+  color: #fff;
+  text-align: center;
+}
+.dealrecord .ivu-select-item:hover{
+  background: #f3ba2f;
+}
+.ivu-icon-arrow-down-b:before{
+  content: "\F3D0";
+}
+.search-time .ivu-input{color: #eee;text-align: center;}
+.search-time .ivu-input:hover,
+.search-time .ivu-input:focus,
+.search-time .ivu-date-picker-focused input{
+  border-color: #fff;
+  box-shadow: none;
+}
+.search-time .ivu-input-icon-normal+.ivu-input{color: #eee;}
+.search-time .ivu-input:hover,
+.search-time .ivu-input:focus,
+.search-time .ivu-date-picker-focused input {
+  border-color: #fff;
+  box-shadow: none;
+}
+.search-time .ivu-input-icon,
+.white-search-time .ivu-input-icon{
+  display: none;
+}
+.search-time ::-webkit-input-placeholder {
+  color: #eee;
+}
+.search-time :-moz-placeholder {
+  color:#eee;
+}
+.search-time ::-moz-placeholder {
+  color: #eee;
+}
+.search-time :-ms-input-placeholder {
+  color: #eee;
+}
+/*钱包、资产-记录-时间选择器end*/
+
+/*钱包提现 input*/
+.cash .ivu-form-item{
+  display: inline-block;
+  margin-bottom: 0;
+}
+.cash .ivu-form-item-content{
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+.cash .ivu-form-item-content .ivu-input-wrapper .ivu-input{
+  height: 2.5rem;
+  line-height: 2.5rem;
+}
+.long  .ivu-form-item-content{
+  width: 35rem;
+}
+.short  .ivu-form-item-content{
+  width: 14.5rem;
+}
+.cash .ivu-form-item-error-tip{
+  top: -2.5rem;
+}
+.transfer-select .ivu-form-item-error-tip{
+  top: -2.5rem;
+}
+/*white tip*/
+.whitetran .ivu-form-item-error-tip{
+  width: auto;
+  height:2rem;
+  line-height: 2rem;
+  text-align: center;
+  border:1px solid #eee;
+  top: -2.5rem;
+  left: 50%;
+  border-radius: 0.25rem;
+  background:#fff;
+  box-shadow: 0 0 1px 1px #eee;
+  padding: 0 1rem;
+  font-size: 0.6rem;
+  color:#e13232;
+  transform: translateX(-50%);
+}
+.whitetran .ivu-form-item-error-tip:before{
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 1.7rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: none;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  transform: rotate(225deg);
+  background: #fff;
+}
+/*记录*/
+.record_box div{box-sizing: border-box;}
+.record_box{
+  background-color: #272c39;
+  width: 100%;
+  height: 100%;
+}
+.record_box .record{
+  width: 60rem;
+  padding: 0.5rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.record_box .record-header{
+  height: 2.5rem;
+  border-bottom: 1px solid #272c39;
+  border-radius: 0.25rem;
+  background: #171a21;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.record_box .record-header a, .record_box.record-header span{
+  font-size: 0.7rem;
+  color: #999999;
+  line-height: 2.5rem;
+}
+/*主体*/
+.record_box .box{
+  width: 60rem;
+  height: 43rem;
+  margin: 0 auto;
+  background: #171a21;
+  padding: 0 0.5rem 0 1rem;
+  border-radius: 0.25rem;
+}
+.record_box .box-header{
+  position: relative;
+  height: 4rem;
+  border-bottom: 1px solid #272c39;
+}
+.record_box .moneybag{
+  float: left;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 4rem;
+  color: #fefefe;
+}
+/*搜索*/
+.record_box .search{
+  display: flex;
+  align-items:center;
+  height: 1.5rem;
+  float:right;
+  margin-top: 1.25rem;
+  margin-right: 0.5rem;
+}
+.record_box .search p{
+  display: inline-block;
+  margin-right: 1rem;
+  color: #fff;
+}
+.record_box .search-time{
+  display: inline-block;
+  height: 1.5rem;
+}
+.record_box .search button{
+  height: 1.5rem;
+  width: 2.5rem;
+  padding: 0 0.5rem;
+  background: #f3ba2f;
+  border-radius: 0.25rem;
+  border: none;
+  vertical-align: middle;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.record_box .icon-search{
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+/*表格*/
+.record_box .container table{
+  width: 100%;
+  border-collapse: collapse;
+}
+/*行和列宽高设置*/
+.record_box .table-title th.opration,
+.record_box.table-container td.opration{
+  position: relative;
+  width: 2.25rem !important;
+}
+.record_box .table-title th{
+  width: 10.75rem !important;
+}
+.record_box.table-container td{
+  width: 10.75rem !important;
+}
+.record_box .container tr{
+  height: 2.5rem;
+  border-bottom: 1px solid #272c39;
+}
+.record_box .container tr.tr-first:hover{
+  background: #171a21;
+}
+.record_box .container tr:hover{
+  background: #272c39;
+}
+/*td样式设置*/
+.record_box .table-title .tr-first th{
+  color: #999999;
+  text-align: left;
+  padding-left: 0.5rem;
+  border-bottom: 1px solid #272c39;
+}
+.record_box .container td{
+  font-size: 0.7rem;
+  color: #fefefe;
+  padding: 0 0.5rem;
+}
+.record_box .currency, .record_box.currency img{
+  vertical-align: middle;
+}
+.record_box .opration a{
+  color: #999999;
+}
+.record_box .opration a:hover{color: #f3ba2f;}
+.record_box .opration a.a-first{
+  margin-left: 0;
+}
+/*滚动条样式*/
+.record_box .table-container{
+  height: 30.05rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.record_box ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 10rem;
+  background-color: rgba(0,0,0,0);
+}
+.record_box ::-webkit-scrollbar-thumb {
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+
+/*新闻-文章详情*/
+.NewsDetails{
+  background: #272c39;
+}
+.NewsDetails .box{
+  height: auto;
+  background: #272c39;
+  min-height: 40rem;
+  /*padding-bottom: 0.5rem;*/
+  padding: 0.5rem;
+}
+.NewsDetails .detail{
+  width: 100%;
+  height: auto;
+  min-height: 40rem;
+  background: #171a21;
+  border-radius: 0.25rem;
+  /*margin:0.5rem;*/
+  /*padding-bottom: 0.5rem;*/
+}
+.NewsDetails .detail-container{
+  width: 60rem;
+  margin: 0 auto;
+}
+.NewsDetails .detail-nav{
+  height: 3.75rem;
+  border-bottom: 1px solid #272c39;
+  padding-top: 2rem;
+}
+.NewsDetails .detail-nav a:hover{color: #f3ba2f;}
+.NewsDetails .detail-nav a,.detail-nav span{
+  font-size: 0.7rem;
+  color: #fffffe;
+}
+.NewsDetails .detail-header{
+  padding-top: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #272c39;
+}
+.NewsDetails .detail-titile{
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+}
+.NewsDetails .detail-titile p{
+  line-height: 1.75rem;
+}
+.NewsDetails .detail-info{
+  position: relative;
+  margin: 1.9rem 0;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  color: #eeeeee;
+}
+.NewsDetails .detail-time{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.NewsDetails .detail-time span{
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-bottom: 0.15rem;
+  border-radius: 0.25rem;
+  background: #e6bc01;
+
+}
+.NewsDetails .content{
+  padding-top: 2rem;
+  color: #fff;
+}
+
+/*钱包*/
+.moneybagbody div{box-sizing: border-box;}
+.moneybagbody{
+  width: 60rem;
+  height: 43rem;
+  margin: 0 auto;
+  background: #171a21;
+  padding: 0 0.5rem 0 1rem;
+  border-radius: 0.25rem;
+}
+.moneybagbody .header{
+  position: relative;
+  height: 4rem;
+  border-bottom: 1px solid #272c39;
+}
+.moneybagbody .moneybag{
+  float: left;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 4rem;
+  color: #fefefe;
+}
+.moneybagbody .ivu-switch{
+  position: relative;
+  float: left;
+  margin: 1.5rem 0.5rem 1.5rem 4rem;
+  width: 2rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #999;
+}
+.moneybagbody .ivu-switch-checked{
+  border-color: #f3ba2f;
+  background-color: #f3ba2f;
+}
+.moneybagbody .ivu-switch:focus{
+  box-shadow: none;
+}
+.moneybagbody .ivu-switch-checked:after{
+  left: 1rem;
+}
+.moneybagbody .ivu-switch:after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.moneybagbody .button-desc{
+  float: left;
+  line-height: 4rem;
+  font-size: 0.7rem;
+  color: #999999;
+}
+.moneybagbody .search{
+  height: 1.5rem;
+  width: 11rem;
+  float:right;
+  margin-top: 1.25rem;
+  margin-right: 0.5rem;
+  border: 1px solid #eeeeee;
+  border-radius: 0.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.moneybagbody .search input{
+  height: 1.4rem;
+  width: 8.8rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(0,0,0,0);
+  vertical-align: top;
+  color: #fff;
+}
+.moneybagbody .search button{
+  height: 1.4rem;
+  width: 1.9rem;
+  padding: 0 0.5rem;
+  outline: none;
+  cursor: pointer;
+  background: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  vertical-align: middle;
+}
+.moneybagbody .icon-search{
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+.moneybagbody .container table,.table-title{
+  width: 100%;
+  border-collapse: collapse;
+}
+.moneybagbody .col1{
+  width: 10.5rem;
+  padding-left: 0.5rem;
+}
+.moneybagbody .table-title .col1{width: 10.25rem;}
+.moneybagbody .table-title .col2{width: 10.5rem;}
+.moneybagbody .table-title .col3{width: 10.5rem;}
+.moneybagbody .col2,
+.moneybagbody .col3,
+.moneybagbody .col4{
+  width: 10.75rem !important;
+  padding-left: 0.5rem;
+}
+.moneybagbody .col5{
+  width: 14rem !important;
+  padding-left: 0.4rem;
+}
+.moneybagbody .container tr{
+  height: 2.5rem;
+  border-bottom: 1px solid #272c39;
+}
+.moneybagbody .container tr.tr-first:hover{
+  background: #171a21;
+}
+.moneybagbody .container tr:hover{
+  background: #272c39;
+}
+.moneybagbody .table-title .tr-first th{
+  color: #999999;
+  text-align: left;
+  border-bottom: 1px solid #272c39;
+}
+.moneybagbody .container td{
+  font-size: 0.7rem;
+  color: #fefefe;
+  padding: 0 0.5rem;
+}
+.moneybagbody .container td.availableBalance{
+  color: #07d08b;
+}
+.moneybagbody .currency,
+.moneybagbody .currency img{
+  vertical-align: middle;
+}
+.moneybagbody .opration a{
+  color: #fefefe;
+  margin-left: 1.15rem;
+}
+.moneybagbody .opration a:hover,
+.moneybagbody .opration a:hover .icon-recharge:before,
+.moneybagbody .opration a:hover .icon-withdraw:before,
+.moneybagbody .opration a:hover .icon-record:before,
+.moneybagbody .opration a:hover .icon-deal:before{color: #f3ba2f;}
+.moneybagbody .opration a.a-first{
+  margin-left: 0;
+}
+.moneybagbody .icon-recharge{
+  position: relative;
+  left: 0;
+  top: 0.1rem;
+  font-size: 0.8rem;
+  margin-right: 0.15rem;
+}
+.moneybagbody .icon-recharge,
+.moneybagbody .icon-withdraw,
+.moneybagbody .icon-record,
+.moneybagbody .icon-deal{
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+  margin-right: 0.15rem;
+}
+.moneybagbody .icon-deal:before{
+  color: #fff !important;
+}
+
+.moneybagbody .footer{
+  margin-top: 1.65rem;
+  font-size: 0.7rem;
+  color: #999999;
+}
+.moneybagbody .table-container{
+  height: 30.05rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.moneybagbody ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 10rem;
+  background-color: rgba(0,0,0,0);
+}
+.moneybagbody ::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+}
+.moneybagbody ::-webkit-scrollbar-thumb {
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+/*钱包-划转弹窗*/
+.moneybag_transfer .margin-bottom-20{margin-bottom: 1rem}
+.moneybag_transfer .text-12-999{
+  font-size: 0.6rem;
+  color: #999999;
+}
+.moneybag_transfer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.moneybag_transfer .box{
+  width: 27rem;
+  height: 31rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+.moneybag_transfer .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.moneybag_transfer .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #eeeeee;
+}
+.moneybag_transfer .input-title{
+  position: relative;
+  width: 23rem;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+.moneybag_transfer .input-title span{
+  float: right;
+}
+.moneybag_transfer .number{
+  position: relative;
+  width: 23rem;
+}
+.moneybag_transfer .number button{
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  height: 2rem;
+  background: rgba(0,0,0,0);
+  border: none;
+  color: #f3ba2f;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.6rem;
+}
+.moneybag_transfer .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.moneybag_transfer .cancle{
+  height: 2rem;
+  color: #ffffff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.moneybag_transfer input::-webkit-outer-spin-button,
+.moneybag_transfer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.moneybag_transfer input[type="number"]{
+  -moz-appearance: textfield;
+}
+/*钱包-记录-查看（充值）*/
+.rechargecheck .margin-bottom-20{margin-bottom: 1.5rem;}
+.rechargecheck .text-12-999{
+  font-size: 0.6rem;
+  color: #999999;
+}
+.rechargecheck{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.rechargecheck .box{
+  width: 27rem;
+  height: 28rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+.rechargecheck .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.rechargecheck .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #eeeeee;
+}
+.rechargecheck .input-title{
+  position: relative;
+  width: 23rem;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+.rechargecheck .data{
+  width: 23rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #303645;
+  line-height: 2rem;
+  font-size: 0.6rem;
+  color: #fff;
+  padding: 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.rechargecheck .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.rechargecheck .cancle{
+  height: 2rem;
+  color: #ffffff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+/*钱包-记录-查看（划转）*/
+.transfercheck .margin-bottom-20{margin-bottom: 1.5rem;}
+.transfercheck .text-12-999{
+  font-size: 0.6rem;
+  color: #999999;
+}
+.transfercheck{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.transfercheck .box{
+  width: 27rem;
+  height: 36.8rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+.transfercheck .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.transfercheck .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #eeeeee;
+}
+.transfercheck .input-title{
+  position: relative;
+  width: 23rem;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+.transfercheck .data{
+  width: 23rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #303645;
+  line-height: 2rem;
+  font-size: 0.6rem;
+  color: #fff;
+  padding: 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.transfercheck .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.transfercheck .cancle{
+  height: 2rem;
+  color: #ffffff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+/*钱包-记录-查看（提现）*/
+.withdrawcheck .margin-bottom-20{margin-bottom: 1.5rem;}
+.withdrawcheck .text-12-999{
+  font-size: 0.6rem;
+  color: #999999;
+}
+.withdrawcheck{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.withdrawcheck .box{
+  width: 27rem;
+  height: 28rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+.withdrawcheck .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.withdrawcheck .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #eeeeee;
+}
+.withdrawcheck .input-title{
+  position: relative;
+  width: 23rem;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+.withdrawcheck .data{
+  width: 23rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #303645;
+  line-height: 2rem;
+  font-size: 0.6rem;
+  color: #fff;
+  padding: 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.withdrawcheck .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.withdrawcheck .cancle{
+  height: 2rem;
+  color: #ffffff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+
+/*交易记录*/
+.ddealrecord{
+  height: 100%;
+  width: 100%;
+  background: #272c39;
+  padding: 0.5rem 0;
+}
+.ddealrecord .deal-record{
+  width: 60rem;
+  height: 48rem;
+  margin: 0 auto;
+  background: #171a21;
+  border-radius: 0.25rem;
+  padding: 0 1rem;
+}
+.ddealrecord .record-header{
+  position: relative;
+  width:100%;
+  height:4rem;
+  line-height:4.5rem;
+  border-bottom:1px solid #272c39;
+}
+.ddealrecord .head-left{
+  float: left;
+  height: 4rem;
+}
+.ddealrecord .head-left .title{
+  display: inline-block;
+  font-size:1.2rem;
+  line-height: 4rem;
+  color: #fff;
+  margin-right: 3.5rem;
+}
+.ddealrecord .head-left .title:hover,
+.ddealrecord .head-left a.active,
+.ddealrecord .head-left a.bbactive{color: #f3ba2f;}
+.ddealrecord .head-left a.active,
+.ddealrecord .head-left a.bbactive{
+  border-bottom: 0.1rem solid #f3ba2f;
+  height: 3.9rem;
+}
+.ddealrecord .head-right{
+  float: right;
+  height: 4rem;
+}
+.ddealrecord .dealrecord{
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  background: #171a21 ;
+}
+.ddealrecord .dealrecord p,
+.ddealrecord .dealrecord select{
+  display: inline-block;
+}
+.ddealrecord .dealrecord button{
+  width: 2.5rem;
+  height: 1.3rem;
+  margin-left: 1rem;
+  background:#f3ba2f;
+  border-radius: 0.25rem;
+  border: none;
+  color: #fff;
+  line-height: 1.3rem;
+}
+.ddealrecord .dealrecord span{
+  font-size: 0.7rem;
+  margin: 0 0.25rem;
+}
+.ddealrecord .dealrecord p{
+  font-size: 0.7rem;
+  color: #eee;
+  margin-right: 0.5rem;
+}
+
+/*交易记录-币币交易*/
+.bbdeal{
+  width: 100%;
+  height: 44rem;
+  background: #171a21;
+  padding-top: 0;
+}
+/*表格*/
+.bbdeal .table-container table,
+.bbdeal .table-title{
+  width: 100%;
+  border-collapse: collapse;
+}
+/*行和列宽高设置*/
+.bbdeal .order-time,
+.bbdeal .col4{width: 12.5rem;}
+.bbdeal .col2{width: 8rem;}
+.bbdeal .col3{width: 10rem;}
+.bbdeal .col5{width: 10.5rem;}
+.bbdeal .col6{width: 5.25rem;padding-right: 0.5rem;}
+.bbdeal .table-container tr,
+.bbdeal .table-title{
+  height: 2.5rem;
+}
+/*td样式设置*/
+.bbdeal .order-time{padding-left: 0.5rem;}
+.bbdeal .table-container tr:hover{
+  background-color: #272c39;
+}
+.bbdeal .table-title .tr-first th{
+  color: #999999;
+  text-align: left;
+  border-bottom: 1px solid #272c39;
+}
+.bbdeal .table-container td{
+  font-size: 0.7rem;
+  color: #fff;
+  border-bottom: 1px solid #272c39;
+}
+.bbdeal .table-container td.green{
+  color: #07d08b;
+}
+.bbdeal .table-container td.red{
+  color: #e13232;
+}
+.bbdeal .opration a{
+  color: #999;
+}
+.bbdeal .table-container{
+  height: 30.05rem;
+  overflow: hidden;
+}
+
+/*交易记录-我的交易单*/
+.mydeal {
+  width: 100%;
+  height: 44rem;
+  background: #171a21;
+  padding-top: 0;
+}
+/*表格*/
+.mydeal .table-container table,
+.mydeal .table-title{
+  width: 100%;
+  border-collapse: collapse;
+}
+.mydeal div{box-sizing: border-box;}
+/*行和列宽高设置*/
+.mydeal .order-time,
+.mydeal .col4{width: 10.5rem !important;}
+.mydeal .col2{width: 6rem;}
+.mydeal .col3{width: 6.5rem;}
+.mydeal .col5{width: 8.5rem;}
+.mydeal .col6,
+.mydeal .col7{width: 7.5rem;}
+.mydeal .opration{width: 2rem !important;padding-right: 0.5rem;}
+.mydeal .table-container tr,
+.mydeal .table-title{
+  height: 2.5rem;
+}
+/*td样式设置*/
+.mydeal .order-time{padding-left: 0.5rem;}
+.mydeal .table-container tr:hover{
+  background-color: #272c39;
+}
+.mydeal .table-title .tr-first th{
+  color: #999999;
+  text-align: left;
+  border-bottom: 1px solid #272c39;
+}
+.mydeal .table-container td{
+  font-size: 0.7rem;
+  color: #fff;
+  border-bottom: 1px solid #272c39;
+}
+.mydeal .table-container td.green{
+  color: #07d08b;
+}
+.mydeal .table-container td.red{
+  color: #e13232;
+}
+.mydeal .opration a{
+  color: #999;
+}
+.mydeal .opration a:hover{color: #f3ba2f;}
+.mydeal .table-container{
+  height: 30.05rem;
+  overflow: hidden;
+}
+/*交易记录-撤单*/
+.repeal .margin-bottom-20{margin-bottom: 1rem}
+.repeal {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.repeal .box{
+  width: 27rem;
+  height: 15.7rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+.repeal .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #b5b6ba;
+  cursor: pointer;
+}
+.repeal .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.repeal .tips{
+  position: relative;
+  font-size: 0.7rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  color: #fff;
+}
+.repeal .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.repeal .cancle{
+  height: 2rem;
+  color: #fff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.repeal ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ccc;
+}
+.repeal :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.repeal ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.repeal :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+/*首页资产*/
+.dealcentermoneybag {
+  background: #272c39;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.dealcentermoneybag .userinfo{
+  position: relative;
+  width: 60rem;
+  height: 10.5rem;
+  margin: 0.5rem auto;
+  margin-top: 0;
+  padding: 1.45rem 0;
+  background: #171a21;
+  border-radius: 0.25rem;
+}
+.dealcentermoneybag .userinfo-one{
+  float: left;
+  height: 7.6rem;
+  margin-left: 1rem;
+  padding-right: 3.1rem;
+  border-right: 1px solid #272c39;
+}
+.dealcentermoneybag .userinfo-two,
+.dealcentermoneybag .userinfo-three{
+  float: left;
+  height: 7.6rem;
+  margin-left: 1rem;
+}
+.dealcentermoneybag .userinfo-two{
+  border-right: 1px solid #272c39;
+}
+.dealcentermoneybag .userinfo .p1{
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #eee;
+  margin-bottom: 1.4rem;
+}
+.dealcentermoneybag .userinfo-two .p1{margin-right: 6.8rem;}
+.dealcentermoneybag .userinfo .p2{
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: #eee;
+}
+.dealcentermoneybag .userinfo-one .p2 span{color: #999999;}
+.dealcentermoneybag .userinfo-two .p2 span{font-size: 0.7rem;}
+.dealcentermoneybag .userinfo-three .p2{color: #f3ba2f;}
+.dealcentermoneybag .three{position: relative;}
+.dealcentermoneybag .three-left,
+.dealcentermoneybag .three-right{float: left;}
+.dealcentermoneybag .three-left{
+  text-align: right;
+  margin-right: 0.45rem;
+  font-weight: bold;
+}
+/*首页资产currency*/
+.dealcentercurrency div{box-sizing: border-box;}
+.dealcentercurrency div{box-sizing: border-box;}
+.dealcentercurrency {
+  width: 60rem;
+  height: 43rem;
+  margin: 0 auto;
+  background: #171a21;
+  padding: 0 0.5rem 0 1rem;
+  border-radius: 0.25rem;
+}
+.dealcentercurrency .header{
+  position: relative;
+  height: 4rem;
+  border-bottom: 1px solid #272c39;
+}
+.dealcentercurrency .moneybag{
+  float: left;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 4rem;
+  color: #eee;
+}
+.dealcentercurrency .ivu-switch{
+  position: relative;
+  float: left;
+  margin: 1.5rem 0.5rem 1.5rem 4rem;
+  width: 2rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  background-color: #999;
+  border-radius: 0.5rem;
+  border: none;
+}
+.dealcentercurrency .ivu-switch-checked{
+  border-color: #f3ba2f;
+  background-color: #f3ba2f;
+}
+.dealcentercurrency .ivu-switch:focus{
+  box-shadow: none;
+}
+.dealcentercurrency .ivu-switch-checked:after{
+  left: 1rem;
+}
+.dealcentercurrency .ivu-switch:after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.dealcentercurrency .button-desc{
+  float: left;
+  line-height: 4rem;
+  font-size: 0.7rem;
+  color: #999999;
+}
+.dealcentercurrency .search{
+  display: flex;
+  height: 1.5rem;
+  width: 11rem;
+  float:right;
+  margin-top: 1.25rem;
+  margin-right: 0.5rem;
+  border: 1px solid #eeeeee;
+  border-radius: 0.25rem;
+}
+.dealcentercurrency .search input{
+  height: 1.4rem;
+  width: 8.8rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(0,0,0,0);
+  vertical-align: top;
+  color: #999;
+}
+.dealcentercurrency .search button{
+  height: 1.4rem;
+  width: 1.9rem;
+  padding: 0 0.5rem;
+  outline: none;
+  cursor: pointer;
+  background: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  vertical-align: middle;
+}
+.dealcentercurrency .icon-search:before{
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  color: #fff;
+}
+/*表格*/
+.dealcentercurrency .container table{
+  width: 100%;
+  border-collapse: collapse;
+}
+/*行和列宽高设置*/
+.dealcentercurrency .table-title .col6{width: 8.05rem;}
+.dealcentercurrency .col2,
+.dealcentercurrency .col3,
+.dealcentercurrency .col4{width: 11.5rem;}
+.dealcentercurrency .col1,
+.dealcentercurrency .col5{width: 8rem;}
+.dealcentercurrency .col6{width: 7.5rem;}
+.dealcentercurrency .container tr{
+  height: 2.5rem;
+  border-bottom: 1px solid #272c39;
+}
+.dealcentercurrency .container tr.tr-first:hover{
+  background: #171a21;
+}
+.dealcentercurrency .container tr:hover{
+  background: #272c39;
+}
+/*td样式设置*/
+.dealcentercurrency .table-title .tr-first th{
+  color: #999999;
+  text-align: left;
+  padding-left: 0.5rem;
+  border-bottom: 1px solid #272c39;
+}
+.dealcentercurrency .container td{
+  font-size: 0.7rem;
+  color: #eee;
+  padding: 0 0.5rem;
+}
+.dealcentercurrency .container td.availableBalance{
+  color: #07d08b;
+}
+.dealcentercurrency .currency,
+.dealcentercurrency .currency img{
+  vertical-align: middle;
+}
+.dealcentercurrency .opration a{
+  color: #eee;
+}
+.dealcentercurrency .opration a:hover,
+.dealcentercurrency .opration a:hover .icon-record:before,
+.dealcentercurrency .opration a:hover .icon-deal:before{color: #f3ba2f;}
+.dealcentercurrency .opration a.a-first{
+  margin-left: 0;
+}
+.dealcentercurrency .icon-record:before{
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+  margin-right: 0.15rem;
+  color: #eee;
+}
+.dealcentercurrency .icon-deal:before{
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+  margin-left: 1.15rem;
+  margin-right: 0.15rem;
+  color: #eee;
+}
+.dealcentercurrency .footer{
+  margin-top: 1.65rem;
+  font-size: 0.7rem;
+  color: #999999;
+}
+.dealcentercurrency .table-container{
+  height: 30.05rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.dealcentercurrency ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 10rem;
+  border: none;
+  background-color: rgba(0,0,0,0);
+}
+.dealcentercurrency ::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+}
+.dealcentercurrency ::-webkit-scrollbar-thumb {
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+
+/*资产记录*/
+.dealcenterrecord {
+  background-color: #272c39;
+  width: 100%;
+  height: 100%;
+}
+.dealcenterrecord .record{
+  width: 60rem;
+  padding: 0.5rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dealcenterrecord .record-header{
+  height: 2.5rem;
+  border-bottom: 1px solid #272c39;
+  border-radius: 0.25rem;
+  background: #171a21;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.dealcenterrecord .record-header a,
+.dealcenterrecord .record-header span{
+  font-size: 0.7rem;
+  color: #999999;
+  line-height: 2.5rem;
+}
+/*主体*/
+.dealcenterrecord .box{
+  width: 60rem;
+  height: 43rem;
+  margin: 0 auto;
+  background: #171a21;
+  padding: 0 0.5rem 0 1rem;
+  border-radius: 0.25rem;
+}
+.dealcenterrecord .box-header{
+  position: relative;
+  height: 4rem;
+  border-bottom: 1px solid #272c39;
+}
+.dealcenterrecord .moneybag{
+  float: left;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 4rem;
+  color: #fefefe;
+}
+.dealcenterrecord .search{
+  display: flex;
+  align-items:center;
+  height: 1.5rem;
+  float:right;
+  margin-top: 1.25rem;
+  margin-right: 0.5rem;
+}
+.dealcenterrecord .search p{
+  display: inline-block;
+  margin-right: 1rem;
+  color: #fff;
+}
+.dealcenterrecord .search-time{
+  display: inline-block;
+  height: 1.5rem;
+}
+.dealcenterrecord .search input{
+  height: 1.5rem;
+  width: 8rem;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(0,0,0,0);
+  border: 1px solid #eeeeee;
+  border-radius: 0.25rem;
+  vertical-align: top;
+  text-align: center;
+  color: #fff;
+}
+.dealcenterrecord .search button{
+  height: 1.5rem;
+  width: 2.5rem;
+  padding: 0 0.5rem;
+  background: #f3ba2f;
+  border-radius: 0.25rem;
+  border: none;
+  vertical-align: middle;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.dealcenterrecord .icon-search{
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+.dealcenterrecord .container table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.dealcenterrecord .table-title th.opration,
+.dealcenterrecord .table-container td.opration{
+  width: 2.25rem;
+}
+.dealcenterrecord .table-title th{
+  width: 10.75rem;
+}
+.dealcenterrecord .table-container td{
+  width: 10.75rem;
+}
+.dealcenterrecord .container tr{
+  height: 2.5rem;
+  border-bottom: 1px solid #272c39;
+}
+.dealcenterrecord .container tr.tr-first:hover{
+  background: #171a21;
+}
+.dealcenterrecord .container tr:hover{
+  background: #272c39;
+}
+.dealcenterrecord .table-title .tr-first th{
+  color: #999999;
+  text-align: left;
+  padding-left: 0.5rem;
+  border-bottom: 1px solid #272c39;
+}
+.dealcenterrecord .container td{
+  font-size: 0.7rem;
+  color: #fefefe;
+  padding: 0 0.5rem;
+}
+.dealcenterrecord .currency,
+.dealcenterrecord .currency img{
+  vertical-align: middle;
+}
+.dealcenterrecord .opration a{
+  color: #999999;
+}
+.dealcenterrecord .opration a:hover{color: #f3ba2f;}
+.dealcenterrecord .opration a.a-first{
+  margin-left: 0;
+}
+.dealcenterrecord .icon-recharge{
+  position: relative;
+  left: 0;
+  top: 0.1rem;
+  font-size: 0.8rem;
+  margin-right: 0.15rem;
+}
+.dealcenterrecord .icon-withdraw,.icon-record{
+  font-size: 0.7rem;
+  margin-right: 0.15rem;
+}
+.dealcenterrecord .icon-deal{
+  font-size: 0.6rem;
+  margin-right: 0.15rem;
+}
+.dealcenterrecord .table-container{
+  height: 30.05rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.dealcenterrecord ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 10rem;
+  background-color: rgba(0,0,0,0);
+}
+.dealcenterrecord ::-webkit-scrollbar-thumb {
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+/*首页-资产-划转*/
+.dealcentertransfer .margin-bottom-20{margin-bottom: 1rem}
+.dealcentertransfer .text-12-999{
+  font-size: 0.6rem;
+  color: #999999;
+}
+.dealcentertransfer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.dealcentertransfer .box{
+  width: 27rem;
+  height: 31rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+.dealcentertransfer .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.dealcentertransfer .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #eeeeee;
+}
+.dealcentertransfer .input-title{
+  position: relative;
+  width: 23rem;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+.dealcentertransfer .input-title span{
+  float: right;
+  font-size: 0.7rem;
+}
+.dealcentertransfer .number{
+  position: relative;
+  width: 23rem;
+}
+.dealcentertransfer .number button{
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  height: 2rem;
+  background: rgba(0,0,0,0);
+  border: none;
+  color: #f3ba2f;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.6rem;
+}
+.dealcentertransfer .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.dealcentertransfer .cancle{
+  height: 2rem;
+  color: #ffffff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.dealcentertransfer input::-webkit-outer-spin-button,
+.dealcentertransfer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.dealcentertransfer input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+
+/*首页-资产-记录-查看*/
+.dealcheck .margin-bottom-20{margin-bottom: 1.5rem;}
+.dealcheck .text-12-999{
+  font-size: 0.6rem;
+  color: #999999;
+}
+.dealcheck {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.dealcheck .box{
+  width: 27rem;
+  height: 36.8rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+.dealcheck .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+.dealcheck .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #eeeeee;
+}
+.dealcheck .input-title{
+  position: relative;
+  width: 23rem;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+.dealcheck .data{
+  width: 23rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #303645;
+  line-height: 2rem;
+  font-size: 0.6rem;
+  color: #fff;
+  padding: 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.dealcheck .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.dealcheck .cancle{
+  height: 2rem;
+  color: #ffffff;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+
+
+/*OTC资产*/
+.otcmoneybag {
+  background: #f5f5f5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.otcmoneybag .userinfo {
+  position: relative;
+  width: 60rem;
+  height: 10.5rem;
+  margin: 0.5rem auto;
+  margin-top: 0;
+  padding: 1.45rem 0;
+  background: #fff;
+  border-radius: 0.25rem;
+}
+
+.otcmoneybag .userinfo-one {
+  float: left;
+  height: 7.6rem;
+  margin-left: 1rem;
+  padding-right: 3.1rem;
+  border-right: 1px solid #f5f5f5;
+}
+
+.otcmoneybag .userinfo-two,
+.otcmoneybag .userinfo-three {
+  float: left;
+  height: 7.6rem;
+  margin-left: 1rem;
+}
+
+.otcmoneybag .userinfo-two {
+  border-right: 1px solid #f5f5f5;
+}
+
+.otcmoneybag .userinfo .p1 {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #333;
+  margin-bottom: 1.4rem;
+}
+
+.otcmoneybag .userinfo-two .p1 {
+  margin-right: 6.8rem;
+}
+
+.otcmoneybag .userinfo .p2 {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: #333;
+}
+
+.otcmoneybag .userinfo-one .p2 span {
+  color: #999999;
+}
+
+.otcmoneybag .userinfo-two .p2 span {
+  font-size: 0.7rem;
+}
+
+.otcmoneybag .userinfo-three .p2 {
+  color: #f3ba2f;
+}
+
+.otcmoneybag .three {
+  position: relative;
+}
+
+.otcmoneybag .three-left,
+.otcmoneybag .three-right {
+  float: left;
+}
+
+.otcmoneybag .three-left {
+  text-align: right;
+  margin-right: 0.45rem;
+  font-weight: bold;
+}
+/*OTC资产currency*/
+.otccurrency div{box-sizing: border-box;}
+.otccurrency {
+  width: 60rem;
+  height: 43rem;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 0.5rem 0 1rem;
+  border-radius: 0.25rem;
+}
+.otccurrency .header{
+  position: relative;
+  height: 4rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.otccurrency .moneybag{
+  float: left;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 4rem;
+  color: #333;
+}
+.otccurrency .ivu-switch{
+  position: relative;
+  float: left;
+  margin: 1.5rem 0.5rem 1.5rem 4rem;
+  width: 2rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  background-color: #999;
+  border-radius: 0.5rem;
+  border: none;
+}
+.otccurrency .ivu-switch-checked{
+  border-color: #f3ba2f;
+  background-color: #f3ba2f;
+}
+.otccurrency .ivu-switch:focus{
+  box-shadow: none;
+}
+.otccurrency .ivu-switch-checked:after{
+  left: 1rem;
+}
+.otccurrency .ivu-switch:after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.otccurrency .button-desc{
+  float: left;
+  line-height: 4rem;
+  font-size: 0.7rem;
+  color: #999999;
+}
+.otccurrency .search{
+  display: flex;
+  height: 1.5rem;
+  width: 11rem;
+  float:right;
+  margin-top: 1.25rem;
+  margin-right: 0.5rem;
+  border: 1px solid #eeeeee;
+  border-radius: 0.25rem;
+}
+.otccurrency .search input{
+  height: 1.4rem;
+  width: 8.8rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(0,0,0,0);
+  vertical-align: top;
+  color: #999;
+}
+.otccurrency .search button{
+  height: 1.4rem;
+  width: 1.9rem;
+  padding: 0 0.5rem;
+  outline: none;
+  cursor: pointer;
+  background: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  vertical-align: middle;
+}
+.otccurrency .icon-search:before{
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  color: #999;
+}
+.otccurrency .container table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.otccurrency .table-title th.opration,
+.otccurrency .table-container td.opration{
+  width: 7.5rem;
+}
+.otccurrency .table-title th,.table-container td{
+  width: 10.75rem;
+}
+.otccurrency .container tr{
+  height: 2.5rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.otccurrency .container tr.tr-first:hover{
+  background: #fff;
+}
+.otccurrency .container tr:hover{
+  background: #f5f5f5;
+}
+.otccurrency .table-title .tr-first th{
+  color: #333;
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: normal;
+  padding-left: 0.5rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.otccurrency .container td{
+  font-size: 0.7rem;
+  color: #333;
+  padding: 0 0.5rem;
+}
+.otccurrency .container td.availableBalance{
+  color: #07d08b;
+}
+.otccurrency .currency,.currency img{
+  vertical-align: middle;
+}
+.otccurrency .opration a{
+  color: #333;
+}
+.otccurrency .opration a:hover,
+.otccurrency .opration a:hover .icon-record:before,
+.otccurrency .opration a:hover .icon-deal:before{color: #f3ba2f;}
+.otccurrency .opration a.a-first{
+  margin-right: 1rem;
+}
+.otccurrency .icon-record:before,.icon-deal:before {
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+  margin-right: 0.15rem;
+  color: #333;
+}
+.otccurrency .footer{
+  margin-top: 1.65rem;
+  font-size: 0.7rem;
+  color: #999999;
+}
+.otccurrency .table-container{
+  height: 30.05rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.otccurrency ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 10rem;
+  background-color: rgba(0,0,0,0);
+}
+.otccurrency ::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+}
+.otccurrency ::-webkit-scrollbar-thumb {
+  background: #f5f5f5;
+  border-radius: 0.25rem;
+}
+
+/*OTC资产-记录-查看*/
+.otccheck .margin-bottom-20{margin-bottom: 1.5rem;}
+.otccheck {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.otccheck .box{
+  width: 27rem;
+  height: 36.8rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #fff;
+  border-radius: 0.25rem;
+}
+.otccheck .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #666;
+  cursor: pointer;
+}
+.otccheck .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #333;
+}
+.otccheck .input-title{
+  position: relative;
+  width: 23rem;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+.otccheck .data{
+  width: 23rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #eee;
+  line-height: 2rem;
+  font-size: 0.6rem;
+  color: #666;
+  padding: 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.otccheck .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.otccheck .cancle{
+  height: 2rem;
+  color: #333;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+/*OTC资产-记录*/
+.otcrecord {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+}
+.otcrecord .record{
+  width: 60rem;
+  padding: 0.5rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.otcrecord .record-header{
+  height: 2.5rem;
+  border-bottom: 1px solid #f5f5f5;
+  border-radius: 0.25rem;
+  background: #fff;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.otcrecord .record-header a,.record-header span{
+  font-size: 0.7rem;
+  color: #999999;
+  line-height: 2.5rem;
+}
+/*主体*/
+.otcrecord .box{
+  width: 60rem;
+  height: 43rem;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 0.5rem 0 1rem;
+  border-radius: 0.25rem;
+}
+.otcrecord .box-header{
+  position: relative;
+  height: 4rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.otcrecord .moneybag{
+  float: left;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 4rem;
+  color: #333;
+}
+/*搜索*/
+.otcrecord .search{
+  display: flex;
+  align-items:center;
+  height: 1.5rem;
+  float:right;
+  margin-top: 1.25rem;
+  margin-right: 0.5rem;
+}
+.otcrecord .search p{
+  display: inline-block;
+  margin-right: 1rem;
+  color: #333;
+}
+.otcrecord .search input{
+  height: 1.5rem;
+  width: 8rem;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(0,0,0,0);
+  border: 1px solid #eeeeee;
+  border-radius: 0.25rem;
+  vertical-align: top;
+  text-align: center;
+  color: #999;
+}
+.otcrecord .white-search-time{
+  display: inline-block;
+  height: 1.5rem;
+}
+.otcrecord .search button{
+  height: 1.5rem;
+  width: 2.5rem;
+  padding: 0 0.5rem;
+  background: #f3ba2f;
+  border-radius: 0.25rem;
+  border: none;
+  vertical-align: middle;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.otcrecord .icon-search{
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+/*表格*/
+.otcrecord .container table{
+  width: 100%;
+  border-collapse: collapse;
+}
+/*行和列宽高设置*/
+.otcrecord .table-title th.opration,
+.otcrecord .table-container td.opration{
+  width: 2.25rem;
+}
+.otcrecord .table-title th,
+.otcrecord .table-container td{
+  width: 10.75rem;
+}
+.otcrecord .container tr{
+  height: 2.5rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.otcrecord .container tr.tr-first:hover{
+  background: #fff;
+}
+.otcrecord .container tr:hover{
+  background: #eee;
+}
+/*td样式设置*/
+.otcrecord .table-title .tr-first th{
+  color: #999999;
+  text-align: left;
+  padding-left: 0.5rem;
+  border-bottom: 1px solid #f5f5f5;
+}
+.otcrecord .container td{
+  font-size: 0.7rem;
+  color: #333;
+  padding: 0 0.5rem;
+}
+.otcrecord .currency,
+.otcrecord .currency img{
+  vertical-align: middle;
+}
+.otcrecord .opration a{
+  color: #999999;
+}
+.otcrecord .opration a:hover{color: #f3ba2f;}
+.otcrecord .opration a.a-first{
+  margin-left: 0;
+}
+.otcrecord .icon-recharge{
+  position: relative;
+  left: 0;
+  top: 0.1rem;
+  font-size: 0.8rem;
+  margin-right: 0.15rem;
+}
+.otcrecord .icon-withdraw,
+.otcrecord .icon-record{
+  font-size: 0.7rem;
+  margin-right: 0.15rem;
+}
+.otcrecord .icon-deal{
+  font-size: 0.6rem;
+  margin-right: 0.15rem;
+}
+/*滚动条样式*/
+.otcrecord .table-container{
+  height: 30.05rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.otcrecord ::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 10rem;
+  background-color: rgba(0,0,0,0);
+}
+.otcrecord ::-webkit-scrollbar-thumb {
+  background: #272c39;
+  border-radius: 0.25rem;
+}
+/*OTC资产-划转*/
+.otctransfer .margin-bottom-20{margin-bottom: 1rem}
+.otctransfer .text-12-999{
+  font-size: 0.6rem;
+  color: #999999;
+}
+.otctransfer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51,51,51,.6);
+}
+.otctransfer .box{
+  width: 27rem;
+  height: 31rem;
+  margin: 13rem auto;
+  padding: 1rem 1rem 0 2rem;
+  background: #fff;
+  border-radius: 0.25rem;
+}
+.otctransfer .close{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+}
+.otctransfer .transfer-header{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+.otctransfer .input-title{
+  position: relative;
+  width: 23rem;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+.otctransfer .input-title span{
+  float: right;
+}
+.otctransfer .number{
+  position: relative;
+  width: 23rem;
+}
+.otctransfer .number button{
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  height: 2rem;
+  background: rgba(0,0,0,0);
+  border: none;
+  color: #f3ba2f;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.6rem;
+}
+.otctransfer .transfer{
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  margin-right: 2.5rem;
+  background: #f3ba2f;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.otctransfer .cancle{
+  height: 2rem;
+  color: #333;
+  border: none;
+  background: rgba(0,0,0,0);
+  outline: none;
+  cursor: pointer;
+}
+.otctransfer input::-webkit-outer-spin-button,
+.otctransfer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.otctransfer input[type="number"]{
+  -moz-appearance: textfield;
+}

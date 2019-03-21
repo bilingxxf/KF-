@@ -1,0 +1,46 @@
+{
+	"result":{
+		"table":[
+			{"name":"BTC","num":"21BTC","quota":"110-110CNY","unit":"56,88437CNY","way":["1","2","3","4"],"operate":"1"},
+			{"name":"BTC","num":"21BTC","quota":"110-110CNY","unit":"56,88437CNY","way":["1","2","3"],"operate":"1"}
+		]
+	},
+	"result1":{
+		"table":[
+			{"name":"ETH","num":"23ETH","quota":"110-110CNY","unit":"56,88437CNY","way":["1","2"],"operate":"1"},
+			{"name":"ETH","num":"23ETH","quota":"110-110CNY","unit":"56,88437CNY","way":["1"],"operate":"1"}
+		]
+	},
+	"result2":{
+		"table":[
+			{"name":"USDT","num":"25USDT","quota":"110-110CNY","unit":"56,88437CNY","way":["1","2","3","4"],"operate":"1"},
+			{"name":"USDT","num":"25USDT","quota":"110-110CNY","unit":"56,88437CNY","way":["1"],"operate":"1"}
+		]
+	},
+	"result3":{
+		"table":[
+			{"name":"BTC","num":"26BTC","quota":"110-110CNY","unit":"56,88437CNY","way":["1","2","3"],"operate":"2"},
+			{"name":"BTC","num":"26BTC","quota":"110-110CNY","unit":"56,88437CNY","way":["1"],"operate":"2"}
+		]
+	},
+	"result4":{
+		"table":[
+			{"name":"ETH","num":"27ETH","quota":"110-110CNY","unit":"56,88437CNY","way":["3"],"operate":"2"},
+			{"name":"ETH","num":"27ETH","quota":"110-110CNY","unit":"56,88437CNY","way":["2"],"operate":"2"}
+		]
+	},
+	"result5":{
+		"table":[
+			{"name":"USDT","num":"28USDT","quota":"110-110CNY","unit":"56,88437CNY","way":["2","3"],"operate":"2"},
+			{"name":"USDT","num":"28USDT","quota":"110-110CNY","unit":"56,88437CNY","way":["1","2"],"operate":"2"}
+		]
+	},
+	"result6":{
+		"table":[
+			{"order_num":"115261035083640","dealType":"购买 BTC","num":"0.07211","total_price":"4000CNY","unit_price":"4000CNY","date":"2018-05-12 13:38:28","status":1,"object":"snow2017","way":["1","2","3","4"],"operate":"提交"},
+			{"order_num":"115261035083640","dealType":"购买 BTC","num":"0.07211","total_price":"4000CNY","unit_price":"4000CNY","date":"2018-05-12 13:38:28","status":1,"object":"snow2017","way":["1","2","3"],"operate":"提交"},
+			{"order_num":"115261035083640","dealType":"购买 BTC","num":"0.07211","total_price":"4000CNY","unit_price":"4000CNY","date":"2018-05-12 13:38:28","status":2,"object":"snow2017","way":["1","2"],"operate":"提交"},
+			{"order_num":"115261035083640","dealType":"购买 BTC","num":"0.07211","total_price":"4000CNY","unit_price":"4000CNY","date":"2018-05-12 13:38:28","status":3,"object":"snow2017","way":["1"],"operate":"提交"}
+		]
+	}
+}

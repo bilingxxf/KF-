@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- <title>kf.com</title> -->
+    <title>KF官网 | 全球领先数字资产交易平台</title>
+    <!-- <link rel="stylesheet" href="./src/common/style/fn.css"> -->
+    <!-- <link rel="stylesheet" href="./src/common/style/swiper.min.css">
+    <link rel="stylesheet" href="./src/common/style/iview.css">
+    <link rel="stylesheet" href="./src/common/style/style.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/common.css"> -->
+    <!-- <link rel="stylesheet" href="https://static.kf.com/cdn/css/iview.min.css"> -->
+  <link rel="icon" href="static/favicon-icon-new.ico" type="image/x-icon" />
+  <script src="https://static.kf.com/cdn/js/vue.min.js"></script>
+  <script src="https://static.kf.com/cdn/js/vuex.min.js"></script>
+  <script src="https://static.kf.com/cdn/js/vue-router.min.js"></script>
+  <script src="https://static.kf.com/cdn/js/axios.min.js"></script>
+  <script src="https://static.kf.com/cdn/js/iview.min.js"></script>
+  <script src="https://static.kf.com/cdn/js/vue-i18n.min.js"></script>
+  <script src="https://static.kf.com/cdn/js/jquery.min.js"></script>
+  <script src="https://static.kf.com/cdn/js/echarts.min.js"></script>
+</head>
+
+<body>
+
+
+
+
+    <!-- <script type="text/javascript" charset="utf-8" src="//g.alicdn.com/sd/ncpc/nc.js?t=1535155200"></script> -->
+    <!-- <script type="text/javascript" charset="utf-8" src="//g.alicdn.com/sd/nch5/index.js?t=2015052012"></script> -->
+
+    <script>
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"
+            ];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
+        }
+
+        var script = document.createElement('script')
+        if (IsPC()) {
+            script.src = "//g.alicdn.com/sd/ncpc/nc.js?t=" + (Date.parse(new Date()) / 1000)
+        } else {
+            script.src = "//g.alicdn.com/sd/nch5/index.js?t=" + (Date.parse(new Date()) / 1000)
+        }
+        var promiseNC = new Promise(function (resolve, reject) {
+            script.onload = function () {
+                resolve()
+            }
+        })
+
+        document.body.appendChild(script)
+    </script>
+
+
+
+    <div id="app"></div>
+
+    <div style="display: none;">
+        <script src="https://s19.cnzz.com/z_stat.php?id=1274630593&web_id=1274630593" language="JavaScript"></script>
+    </div>
+
+
+    <!-- Start of kf-support Zendesk Widget script -->
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a6538d27-3c1f-440c-ba0d-fa4455f6d6ab"></script>
+
+    <!-- End of kf-support Zendesk Widget script -->
+    <script>
+        window.zESettings = {
+            webWidget: {
+                color: {
+                    theme: '#FECC44',
+                    launcher: '#FECC44',
+                    button: '#242856',
+                    resultLists: '#242856',
+                    header: '#242856',
+                    articleLinks: '#242856'
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>

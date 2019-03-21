@@ -1,0 +1,63 @@
+stages: 
+    - compile
+    - local_deploy
+    - dev_deploy
+    - master_deploy
+    - test_deploy
+compile:
+    stage: compile
+    script:
+      - cnpm install
+      - if npm  run  build
+      - then
+      - rm -rf /home/app/WWW/deploy/js/exchange/dist
+      - mv dist /home/app/WWW/deploy/js/exchange/
+      - ssh -i /home/app/passwd/new_aws/newdev.pem  ec2-user@54.201.221.61 'rm -rf /tmp/exchange/dist'
+      - scp  -r -i /home/app/passwd/new_aws/newdev.pem /home/app/WWW/deploy/js/exchange/dist  ec2-user@54.201.221.61:/tmp/exchange/
+      - else 
+      - exit 2
+      - fi
+    only:
+      - master
+      - dev
+      - test
+    tags:
+      - roujiyihao 
+local_deploy:
+    stage: local_deploy
+    script:
+      - ssh  root@192.168.2.211 "rm -rf /home/app/WWW/oucloud/dist"
+      - scp  -r /home/app/WWW/deploy/js/exchange/dist root@192.168.2.211:/home/app/WWW/oucloud/
+    only:
+      - dev
+    tags:
+      - roujiyihao
+dev_deploy:
+      stage: dev_deploy
+      script:
+      - ssh -i /home/app/passwd/new_aws/newdev.pem ec2-user@54.201.221.61 'ssh  centos@10.0.0.110 "rm -rf /opt/public"'
+      - ssh  -i /home/app/passwd/new_aws/newdev.pem -p22 ec2-user@54.201.221.61  "scp -r /tmp/exchange/dist  centos@10.0.0.110:/opt/public"
+      only:
+      - dev
+      tags:
+      - roujiyihao
+master_deploy:
+      stage: master_deploy
+      script:
+      - ssh -i /home/app/passwd/new_aws/newdev.pem ec2-user@54.201.221.61 'ssh  centos@10.0.0.110 "rm -rf /opt/public"'
+      - ssh  -i /home/app/passwd/new_aws/newdev.pem -p22 ec2-user@54.201.221.61  "scp -r /tmp/exchange/dist  centos@10.0.0.110:/opt/public"
+      - ssh -i /home/app/passwd/new_aws/newdev.pem ec2-user@54.201.221.61 'ssh  centos@10.0.1.10 "rm -rf /home/centos/deploy/js/exchange/master/dist"'
+      - ssh -i /home/app/passwd/new_aws/newdev.pem -p22 ec2-user@54.201.221.61 "scp -r /tmp/exchange/dist  centos@10.0.1.10:/home/centos/deploy/js/exchange/master/"
+      only:
+      - master
+      tags:
+      - roujiyihao
+test_deploy:
+      stage: test_deploy
+      script:
+      - ssh -i /home/app/passwd/new_aws/newdev.pem ec2-user@54.201.221.61 'ssh  centos@10.0.0.110 "rm -rf /opt/newUi"'
+      - ssh  -i /home/app/passwd/new_aws/newdev.pem -p22 ec2-user@54.201.221.61  "scp -r /tmp/exchange/dist  centos@10.0.0.110:/opt/newUi"
+      only:
+      - test
+      tags:
+      - roujiyihao

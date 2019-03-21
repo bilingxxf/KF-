@@ -1,0 +1,15 @@
+{
+  "url": "http://192.168.2.211:8081/api/v1/",
+  "a": "http://192.168.2.211:29080/api/v1/",
+  "tokenUrl":"http://192.168.2.211:8401/api/v1/",
+  "fileUrl":"http://192.168.2.211:29080",
+  "promo_url" :"https://m.bitboole.com",
+  "phone_url":"http://192.168.2.220:5032/api/v1",
+  "recordqrUrl":"/api/v1/captcha/qrcode/msg/",
+  "moneybagUrl":"http://finance.oucloud.com/api/v1/",
+  "moneybagRefreshUrl":"http://192.168.2.211:10001/api/v1/common/exchange/",
+  "advertiser_url":"http://192.168.2.220:5036/api/v1",
+  "bibideal_url":"http://192.168.2.220:5038/api/v1",
+  "code":"https://static.bitboole.com",
+  "img":"http://192.168.2.211:29080/"
+}

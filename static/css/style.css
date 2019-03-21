@@ -1,0 +1,5642 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.foo {
+    background: blue;
+    height: 5.05rem;
+}
+
+.bar {
+    height: 2.5rem;
+    background: red;
+}
+
+html {
+    font-size: 20px /*no*/
+}
+
+@media screen and (max-width:1280px) {
+    body {
+        width: 1280px !important /*no*/
+    }
+}
+
+body {
+    position: relative;
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun !important;
+    font-size: 0.7rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-height: 1000px) {
+    html {
+        font-size: 16px /*no*/
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    color: #FFF
+}
+
+ul>li {
+    list-style: none;
+}
+
+.swiper-pagination-bullet {
+    background: #fff !important;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+}
+
+:-moz-placeholder {
+    color: #999;
+}
+
+::-moz-placeholder {
+    color: #999;
+}
+
+:-ms-input-placeholder {
+    color: #999;
+}
+
+.ivu-select-dropdown {
+    padding: 0rem !important;
+    border-radius: 0.25rem;
+}
+
+.header .ivu-select-dropdown {
+    top: 2.75rem !important;
+    left: initial !important;
+    right: 0.5rem;
+}
+
+.ivu-tabs-bar {
+    border: none
+}
+
+.ivu-steps .ivu-steps-head {
+    background: none
+}
+
+.ivu-steps-horizontal .ivu-steps-item:not(:first-child) .ivu-steps-head {
+    padding-left: 0;
+}
+
+.ivu-steps-horizontal .ivu-steps-content {
+    margin-left: -0.75rem;
+    padding-left: 0;
+}
+
+.ivu-tabs-nav .ivu-tabs-tab {
+    font-size: 0.9rem;
+    color: #000;
+}
+
+.login .ivu-tabs-nav .ivu-tabs-tab-active {
+    color: #4F69C2;
+}
+
+.ivu-tabs-ink-bar {
+    background-color: #f3ba2f;
+}
+
+.ivu-tabs-nav .ivu-tabs-tab:hover {
+    color: #4F69C2;
+}
+
+.ivu-steps-item {
+    width: 19.5% !important;
+}
+
+.ivu-steps-item:last-child {
+    width: 0 !important
+}
+
+.ivu-table th {
+    background: #fff
+}
+
+.otc-detail .ivu-table td,
+.otc-detail .ivu-table th {
+    height: 4.5rem;
+    border-bottom: 1px solid #edeef4;
+}
+
+.otc-detail .ivu-table tr:last-child td {
+    border-bottom: none;
+}
+
+.ivu-table-wrapper {
+    border: none;
+    position: static !important;
+}
+
+.ivu-table:after {
+    width: 0
+}
+
+.ivu-table:before {
+    background: none;
+}
+
+/*OTC交易*/
+
+.otc-detail .ivu-table th {
+    font-size: 0.7rem;
+    color: #999;
+    font-weight: normal;
+}
+
+.otc-detail .ivu-table td {
+    font-size: 0.7rem;
+    color: #333
+}
+
+tr.ivu-table-row-hover td {
+    background: #fff;
+}
+
+.otc-detail .ivu-table-row td:first-child .ivu-table-cell,
+.otc-detail .ivu-table-header tr th:first-child .ivu-table-cell {
+    min-width: 12.5rem;
+    padding-left: 0 !important;
+}
+
+.otc-detail .ivu-table-cell {
+    /*padding-left: 3.5rem!important;*/
+}
+
+.otc-detail .ivu-btn-primary:hover {
+    color: #fff !important;
+    background: #f3ba2f !important;
+}
+.otc-detail .pageOrder .ivu-page-item a,.otc-detail .pageOrder a{
+    color: #999;
+}
+
+/*OTC订单*/
+
+.otc-order .ivu-input-icon {
+    display: none
+}
+
+.otc-order .ivu-form-item-content {
+    line-height: 4.5rem
+}
+
+.otc-order .ivu-form .ivu-form-item-label {
+    line-height: 4.5rem;
+    padding: 0 0.5rem 0 0
+}
+
+.otc-order .ivu-form .ivu-form-item-label {
+    font-size: 0.7rem;
+    color: #333
+}
+
+.btn_submit>div {
+    margin-left: 0.75rem !important
+}
+
+.otc-order .ivu-table th {
+    border-bottom: 1px solid #edeef4;
+}
+
+.otc-order .ivu-table td {
+    border-bottom: none;
+}
+
+.otc-order .ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+    color: #333;
+}
+
+.otc-order .ivu-select-selection,
+.otc-order .ivu-input {
+    border: 1px solid #999
+}
+
+.otc-order ::-webkit-input-placeholder {
+    color: #333;
+}
+
+.otc-order :-moz-placeholder {
+    color: #333;
+}
+
+.otc-order ::-moz-placeholder {
+    color: #333;
+}
+
+.otc-order :-ms-input-placeholder {
+    color: #333;
+}
+
+.otc-order .ivu-btn-primary {
+    background: #f3ba2f;
+    border: none;
+    font-size: 0.7rem;
+}
+
+.otc-order .ivu-table td,
+.otc-order .ivu-table th {
+    height: 2.5rem;
+}
+
+.otc-order th .ivu-table-cell {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #333;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.otc-order td .ivu-table-cell {
+    font-size: 0.7rem;
+    color: #333;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.otc-detail .tableclass .icon_show {
+    margin-right: 0.25rem;
+}
+
+tr.ivu-table-row.ivu-table-row .order_operate:hover {
+    color: #f3ba2f !important;
+}
+
+.otc-order tr.ivu-table-row-hover td {
+    background: #eee !important;
+}
+
+/*提交工单*/
+
+.submit-order .ivu-breadcrumb-item-separator,
+.submit-order .ivu-breadcrumb a {
+    color: #999;
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.submit-order .ivu-input,
+.submit-order .ivu-select-selection,
+.submit-order .ivu-btn-ghost {
+    width: 14.5rem;
+    height: 2.5rem;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.submit-order .ivu-select-dropdown {
+    width: 14.5rem !important;
+    left: 0 !important;
+}
+
+.submit-order .ivu-select-placeholder,
+.submit-order .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    line-height: 2.5rem !important;
+    height: 100%;
+}
+
+.submit-order .ivu-select-selection {
+    background: none
+}
+
+.submit-order .ivu-input:hover,
+.submit-order .ivu-input:focus,
+.submit-order .ivu-select-selection:focus,
+.submit-order .ivu-select-selection:hover,
+.submit-order .ivu-btn-ghost {
+    border: 1px solid #dddee1;
+    box-shadow: none;
+}
+
+.submit-order .ivu-btn-ghost {
+    color: #eee;
+}
+
+.submit-order .ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+    color: #fff;
+    line-height: 2.5rem !important;
+    height: 2.5rem;
+}
+
+.submit-order textarea.ivu-input {
+    width: 35rem;
+    height: 12rem !important;
+    max-height: 12rem !important;
+}
+
+.submit-order .code input {
+    width: 8.5rem !important;
+    height: 2rem !important;
+}
+
+.submit-order .codeNum .ivu-input-wrapper {
+    width: 7.5rem
+}
+
+.submit-order .ivu-btn-primary {
+    background-color: #f3ba2f;
+    border-color: #f3ba2f;
+    width: 14.5rem;
+    height: 2rem;
+    font-size: 0.7rem;
+}
+
+.submit-order .ivu-btn-info {
+    background: #eee;
+    margin-left: 1.5rem;
+    height: 2rem;
+    border: none;
+    color: #07d08b;
+    font-size: 0.8rem
+}
+
+/*工单管理*/
+.order-record .ivu-input-wrapper {
+    width: 29rem !important;
+    height: 2rem;
+    margin-left: 0.5rem
+}
+
+.order-record .ivu-input {
+    background: none;
+    color: #fff;
+    width: 29rem;
+    height: 2rem;
+    border: 1px solid #edeef4;
+}
+
+.order-record .ivu-btn-ghost {
+    margin-left: 0.25rem;
+    width: 5rem;
+    height: 2rem;
+    border-color: #edeef4;
+    color: #edeef4;
+    font-size: 0.7rem;
+}
+
+.order-record .ivu-btn-ghost:hover {
+    border-color: #f3ba2f;
+    color: #f3ba2f;
+}
+
+/*登录*/
+.login .ivu-input {
+    height: 3rem;
+    background: none;
+    font-size: 0.9rem;
+    /*border: none !important;*/
+    border: 1px solid #D9D9D9;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.ivu-tabs-nav-scroll {
+    margin-bottom: 1.5rem;
+}
+
+.code-ivu-btn .ivu-btn {
+    padding: 0;
+}
+
+/* 找回密码 */
+.account-verity .login-label-left .ivu-form-item-error-tip {
+    padding-left: 0.55rem;
+}
+
+/*钱包、资产-记录-时间选择器*/
+.search-time .ivu-row,
+.white-search-time .ivu-row {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.search-time .ivu-input-wrapper,
+.white-search-time .ivu-input-wrapper {
+    height: 1.5rem;
+}
+
+.search-time .ivu-input-icon-normal+.ivu-input,
+.white-search-time .ivu-input-icon-normal+.ivu-input {
+    background: rgba(0, 0, 0, 0);
+    padding: 0.25rem 0.5rem;
+}
+
+.white-search-time .ivu-date-picker-focused input,
+.white-search-time .ivu-input:focus,
+.white-search-time .ivu-input:hover {
+    border-color: #dddee1;
+    box-shadow: none;
+}
+
+/*个人设置table*/
+
+.logHistoryPadding .ivu-table {
+    /*max-height:12.8rem;*/
+}
+
+.logHistoryPadding .ivu-table-wrapper {
+    border: 1px solid #eee;
+    border-radius: 0.15rem;
+}
+
+.logHistoryPadding .ivu-table-overflowX {
+    overflow-x: hidden;
+    /*max-height: 10.2rem;*/
+    /*border-bottom:1px solid #eee;*/
+}
+
+.logHistoryPadding .ivu-table th {
+    height: 2.5rem;
+    color: #333;
+    font-size: 0.7rem;
+    line-height: 2.5rem;
+}
+
+.logHistoryPadding .ivu-table td {
+    height: 2.5rem;
+    color: #666;
+    font-size: 0.7rem;
+    line-height: 2.5rem;
+}
+
+.logHistoryPadding .ivu-table-cell {
+    padding-left: 0.5rem;
+    padding-right: 0.35rem;
+}
+
+.floatRight {
+    text-align: right !important;
+}
+
+.logHistoryPadding ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 12.7rem;
+    background: #fff;
+    border: 0;
+}
+
+.logHistoryPadding ::-webkit-scrollbar-thumb {
+    border-radius: 0.25rem;
+    background: #f4f4f4;
+    -webkit-box-shadow: none;
+}
+
+.logHistoryPadding ::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+}
+
+.logHistoryPadding .ivu-table-overflowY {
+    margin-right: 0.1rem;
+}
+
+/*个人设置账户安全的switch*/
+
+.accountSecuritySwitch .ivu-switch-checked {
+    border-color: #9BD18A;
+    ;
+    background-color: #9BD18A;
+    ;
+}
+
+/*账号管理我的推广=>邀请*/
+
+.top-tab div .ivu-tabs-ink-bar {
+    height: 0;
+}
+
+.top-tab div .ivu-tabs-nav .ivu-tabs-tab {
+    font-size: 0.9rem;
+    text-align: center;
+    width: 3.85rem;
+    margin: 1.55rem 3.5rem 1rem 1rem;
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+.top-tab .ivu-tabs-nav .ivu-tabs-tab-active {
+    color: #4F69C2;
+    border-bottom: 0.15rem solid #f3ba2f !important;
+}
+
+#usermanagement,
+#usermanagement1 {
+    margin: 0 auto;
+}
+
+#dataunll {
+    width: 58.25rem;
+    border: 1px solid #272c39;
+    border-radius: 0.25rem;
+    margin: 0 1rem;
+}
+
+#dataunlls {
+    width: 58.25rem;
+    border: 1px solid #272c39;
+    border-radius: 0.25rem;
+    margin: 0 1rem;
+}
+
+#usermanagement .ivu-table {
+    background: #171a21;
+    margin: 0 auto;
+}
+
+#usermanagement .ivu-table th,
+#usermanagement .ivu-table td {
+    background: #171a21;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+#usermanagement tr.ivu-table-row-hover td {
+    background: #272c39;
+}
+
+#usermanagement .ivu-table td,
+#usermanagement .ivu-table th {
+    border-bottom: 1px solid #272c39;
+}
+
+#usermanagement .ivu-table:before {
+    height: 0;
+}
+
+#usermanagement1 .ivu-table {
+    background: #171a21;
+}
+
+#usermanagement1 .ivu-table th,
+#usermanagement1 .ivu-table td {
+    background: #171a21;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+#usermanagement1 tr.ivu-table-row-hover td {
+    background: #272c39;
+}
+
+#usermanagement1 .ivu-table td,
+#usermanagement1 .ivu-table th {
+    border-bottom: 1px solid #272c39;
+}
+
+#usermanagement1 .ivu-table:before {
+    height: 0;
+}
+
+#usermanagement1 .ivu-table-tip td {
+    display: none;
+}
+
+#usermanagement .ivu-table-header thead tr th:nth-child(3) .ivu-table-cell {
+    float: right;
+    margin-right: 1.45rem;
+}
+
+#usermanagement .ivu-table-header thead tr th:nth-child(2) .ivu-table-cell {
+    margin-left: 7rem;
+}
+
+#usermanagement .ivu-table-body table .ivu-table-tbody .ivu-table-row td:nth-child(3) .ivu-table-cell {
+    float: right;
+    margin-right: 0.65rem;
+}
+
+#usermanagement .ivu-table-body table .ivu-table-tbody .ivu-table-row td:nth-child(2) .ivu-table-cell {
+    margin-left: 6.9rem;
+}
+
+#usermanagement1 .ivu-table-header thead tr th:nth-child(3) .ivu-table-cell {
+    float: right;
+    margin-right: 1.45rem;
+}
+
+#usermanagement1 .ivu-table-header thead tr th:nth-child(2) .ivu-table-cell {
+    margin-left: 7rem;
+}
+
+#usermanagement1 .ivu-table-body table .ivu-table-tbody .ivu-table-row td:nth-child(3) .ivu-table-cell {
+    float: right;
+    margin-right: 0.65rem;
+}
+
+#usermanagement1 .ivu-table-body table .ivu-table-tbody .ivu-table-row td:nth-child(2) .ivu-table-cell {
+    margin-left: 6.9rem;
+}
+
+#Invitationtab .ivu-tabs-bar {
+    height: 3.25rem;
+}
+
+/*账号管理我的推广=>邀请 end*/
+
+/*账号管理我的推广=>时间选择器*/
+
+.time .ivu-picker-panel-body {
+    background: #272c39;
+}
+
+.time .ivu-date-picker-cells-cell-selected em,
+.time .ivu-date-picker-cells-cell-selected:hover em {
+    background: #f3ba2f !important;
+}
+
+.time .ivu-date-picker-header-label:hover,
+.time .ivu-picker-panel-icon-btn:hover {
+    color: #f3ba2f;
+}
+
+.time .ivu-date-picker-cells-cell-next-month em,
+.time .ivu-date-picker-cells-cell-prev-month em {
+    color: #434a5a;
+}
+
+.time .ivu-date-picker-cells {
+    color: #eee;
+}
+
+.time .ivu-date-picker-cells-cell:hover em {
+    background: #f3ba2f !important;
+}
+
+.time .ivu-date-picker-header {
+    border-color: #272c39;
+}
+
+.time .ivu-date-picker-header {
+    color: #fff;
+}
+
+.time .ivu-input:focus {
+    box-shadow: 0rem 0rem 0rem #fff;
+    border-color: white;
+}
+
+.time .ivu-date-picker-focused input {
+    border-color: white;
+}
+
+.top-tab {
+    position: relative;
+}
+
+.time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    top: -2.75rem;
+    left: 35rem;
+}
+
+.time .ivu-input {
+    background: none;
+    height: 1.3rem;
+    padding: 0;
+    text-align: center;
+    border-radius: 0.25rem;
+    outline: none;
+    color: #eee;
+    font-size: 0.6rem;
+}
+
+.time .ivu-input:hover {
+    border-color: #fff;
+}
+
+.time .ivu-input-icon {
+    z-index: -99;
+    display: none;
+}
+
+.time .ivu-col-span-3 {
+    width: 6rem;
+    margin-left: 0.5rem;
+}
+
+.time .ivu-col-span-2 {
+    width: 0.8rem;
+}
+
+.time .ivu-col-span-2 .ivu-icon-ios-minus-empty:before {
+    padding-left: 0.5rem;
+    line-height: 1.3rem;
+}
+
+/*二维码下载*/
+
+.user-prop {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    /* width: 5rem; */
+    padding: 0 1rem;
+    height: 2.5rem;
+    vertical-align: middle;
+    line-height: 2.5rem;
+}
+
+.user-prop-title {
+    font-size: 0.8rem;
+}
+
+.exclusive-wrap {
+    width: 14.25rem;
+    height: 15rem;
+    position: absolute;
+    top: 3rem;
+    right: 0.1rem;
+}
+
+.user-prop-content {
+    position: absolute;
+    width: 13.9rem;
+    border: 1px solid #fff;
+    top: 0.3rem;
+    text-align: center;
+    right: -1px;
+    z-index: 10000;
+    background: #fff;
+    color: #000;
+    box-shadow: 0.1rem 0.15rem 0.3rem 0 rgba(255, 255, 255, 0.3);
+    padding-bottom: 1rem;
+}
+
+.user-prop-sj {
+    width: 0;
+    height: 0;
+    border-width: 0 0.35rem 0.35rem;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+    /*透明 透明  灰*/
+    position: absolute;
+    top: -0.4rem;
+    left: 5.8rem;
+}
+
+.user-prop-p {
+    width: 80%;
+    margin: 0 auto 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px dashed #000;
+}
+
+.user-prop img {
+    width: 9rem;
+    margin: 0 auto;
+    height: 9rem;
+    margin-top: 1rem;
+}
+
+.user-prop-btn {
+    background-color: #5165A4;
+    color: rgba(255, 255, 255, 0.87);
+    height: 2rem;
+    line-height: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.user-prop .user-prop-content .user-prop-btn a {
+    color: rgba(255, 255, 255, 0.87);
+    display: inline-block;
+    width: 100%;
+}
+
+/*交易中心时间*/
+
+.dealtime .ivu-picker-panel-body {
+    background: #272c39;
+}
+
+.dealtime .ivu-date-picker-cells-cell-selected em,
+.time .ivu-date-picker-cells-cell-selected:hover em {
+    background: #f3ba2f !important;
+}
+
+.dealtime .ivu-date-picker-header-label:hover,
+.time .ivu-picker-panel-icon-btn:hover {
+    color: #f3ba2f;
+}
+
+.dealtime .ivu-date-picker-cells-cell-next-month em,
+.time .ivu-date-picker-cells-cell-prev-month em {
+    color: #434a5a;
+}
+
+.dealtime .ivu-date-picker-cells {
+    color: #eee;
+}
+
+.dealtime .ivu-date-picker-cells-cell:hover em {
+    background: #f3ba2f !important;
+}
+
+.dealtime .ivu-date-picker-header {
+    border-color: #272c39;
+}
+
+.dealtime .ivu-date-picker-header {
+    color: #fff;
+}
+
+.dealtime {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.dealtime .ivu-input {
+    background: none;
+    height: 1.3rem;
+    border-radius: 0.25rem;
+    outline: none;
+    color: #eee;
+    font-size: 0.6rem;
+}
+
+.dealtime .ivu-input:hover {
+    border-color: #fff;
+}
+
+.dealtime .ivu-input-icon {
+    z-index: -99;
+}
+
+.dealtime .ivu-col-span-3 {
+    width: 6rem;
+    margin-left: 0.5rem;
+}
+
+.dealtime .ivu-col-span-2 {
+    width: 0.8rem;
+}
+
+.dealtime .ivu-col-span-2 .ivu-icon-ios-minus-empty:before {
+    padding-left: 0.5rem;
+    line-height: 1.3rem;
+}
+
+/*end*/
+
+.ivu-date-picker-cells-focused em {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.ivu-date-picker-cells-cell-today em:after {
+    display: none;
+}
+
+.otc-detail .model,
+.advertisement .model {
+    background: #fff;
+}
+
+.otc-detail .model {
+    width: 34.75rem;
+}
+
+.otc-detail .ivu-radio-checked .ivu-radio-inner {
+    border-color: #333;
+    box-shadow: none;
+}
+
+.time .ivu-col-span-3 button {
+    background: #f3ba2f;
+    color: #fff;
+    width: 2.5rem;
+    height: 1.3rem;
+    border-radius: 0.25rem;
+    outline: none;
+    line-height: 1.15rem;
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+.advertisement .pageOrder .ivu-page-item a, .advertisement .pageOrder a{
+    color: #999;
+}
+
+/*消息管理*/
+
+.container .icon-box:before {
+    border: 1px solid #fff;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+}
+
+.button p:nth-child(1) .icon-box:before {
+    border: 1px solid #fff;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    margin-left: 0.4rem;
+}
+
+#news .ivu-checkbox-checked .ivu-checkbox-inner {
+    border-color: #fff !important;
+}
+
+.ivu-checkbox-inner:focus {
+    box-shadow: none !important;
+    border-color: #fff !important;
+}
+
+.button p:nth-child(1) .icon-box-gou:before {
+    margin-left: 0.4rem;
+}
+
+.container .icon-all-read:before,
+.container .icon-delete:before {
+    font-size: 0.9rem;
+}
+
+.container .icon-mail:before {
+    font-size: 1rem;
+}
+
+.container .icon-box-gou:before {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.container .icon-read-new:before {
+    font-size: 0.9rem;
+}
+
+.messagepage .ivu-page-next,
+.ivu-page-prev,
+.ivu-page-item {
+    background: none;
+}
+
+.messagepage .ivu-page-prev:hover {
+    border-color: #fff;
+}
+
+.messagepage .ivu-page-next:hover {
+    border-color: #fff;
+}
+
+.messagepage .ivu-page-item-active {
+    border-color: white;
+    background: #fff;
+}
+
+.messagepage .ivu-page-item-active a {
+    color: #000;
+}
+
+.messagepage .ivu-page-item-active:focus {
+    border-color: white;
+}
+
+.messagepage .ivu-page-item:hover {
+    border-color: white;
+}
+
+.messagepage .ivu-page-item a:hover {
+    color: #495060;
+}
+
+.messagepage .ivu-page-item:hover {
+    color: red
+}
+
+.messagepage .ivu-page-item:hover a {
+    color: #495060;
+}
+
+.messagepage .ivu-icon-ios-arrow-right:before {
+    color: white;
+}
+
+.messagepage .ivu-icon-ios-arrow-left:before {
+    color: #fff;
+}
+
+#news .ivu-table th,
+#news .ivu-table td {
+    background: #171a21;
+    border-bottom: 1px solid #272c39;
+    height: 2.5rem;
+}
+
+#news .ivu-table th {
+    color: #999;
+    font-size: 0.7rem;
+}
+
+#news .ivu-table {
+    font-size: 0.7rem;
+    color: #fff;
+}
+
+#news .ivu-table .ivu-table-header table thead tr th:nth-child(2) .ivu-table-cell {
+    padding: 0;
+    margin: 0;
+}
+
+#news .ivu-table .ivu-table-header table thead tr th:nth-child(1) .ivu-table-cell {
+    padding: 0;
+    margin: 0;
+}
+
+#news .ivu-table-body table .ivu-table-tbody .ivu-table-row td.ivu-table-cell {
+    padding: 0;
+    margin: 0;
+}
+
+#news .ivu-table-cell {
+    padding: 0;
+    margin: 0;
+}
+
+#news .ivu-table-wrapper {
+    border-right: 1px solid #171a2a;
+}
+
+#news .ivu-table .ivu-table-header thead tr th:nth-child(1) {
+    text-align: right;
+}
+
+#news .ivu-table-body .ivu-table-row td:nth-child(1) {
+    text-align: right;
+}
+
+#news .ivu-table .ivu-table-header thead tr th:nth-child(2) {
+    padding-left: 1rem;
+}
+
+#news .ivu-table-body .ivu-table-row td:nth-child(2) {
+    padding-left: 1rem;
+}
+
+#news .ivu-table .ivu-table-header thead tr th:nth-child(3) {
+    padding-left: 3rem;
+}
+
+#news .ivu-table-tbody .ivu-table-row td:nth-child(3) {
+    padding-left: 3rem;
+}
+
+#news .ivu-table .ivu-table-header thead tr th:nth-child(4) {
+    padding-left: 3.5rem;
+}
+
+#news .ivu-table-tbody .ivu-table-row td:nth-child(4) {
+    padding-left: 3.5rem;
+}
+
+#news .ivu-table .ivu-table-header thead tr th:nth-child(5) {
+    padding-left: 5.5rem;
+}
+
+#news .ivu-table-tbody .ivu-table-row td:nth-child(5) {
+    padding-left: 5.5rem;
+}
+
+#news .ivu-table-body table tbody .ivu-table-row td:nth-child(4) .ivu-table-cell div .expand-row .ivu-col p {
+    width: 27.6rem;
+    font-size: 0.7rem;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.button .icon-box:before {
+    font-size: 0.7rem;
+    border: 1px solid #fff;
+    margin-right: 0.3rem;
+}
+
+.button .icon-box-gou:before {
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+    color: #fff;
+}
+
+#news .ivu-checkbox-inner {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: none;
+}
+
+#news .ivu-checkbox-checked .ivu-checkbox-inner {
+    background: none;
+    border-color: #fff;
+}
+
+.button .icon-all-read:before {
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+}
+
+.button .icon-delete:before {
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+}
+
+#news .ivu-table-body .ivu-table-row td:nth-child(4) .ivu-table-cell div .expand-row .ivu-col .expand-value {
+    cursor: pointer;
+}
+
+.button .ivu-btn:hover {
+    color: #fff;
+}
+
+#news .ivu-checkbox-inner:focus {
+    box-shadow: none;
+    border-color: #fff;
+}
+
+#news .ivu-checkbox-disabled .ivu-checkbox-inner {
+    background: none;
+}
+
+/*otc交易*/
+
+.otc-detail .ivu-radio-inner:after,
+.advertisement .ivu-radio-inner:after {
+    background-color: #333 !important;
+}
+
+.otc-detail .ivu-radio-checked .ivu-radio-inner,
+.advertisement .ivu-radio-checked .ivu-radio-inner {
+    border-color: #333;
+    box-shadow: none;
+}
+
+.main-left-middle .ivu-form .ivu-form-item-label {
+    font-size: 0.8rem;
+    color: #333333;
+}
+
+.main-left-middle .ivu-radio-wrapper {
+    font-size: 0.7rem;
+    color: #333;
+    margin-left: 0.85rem;
+}
+
+.main-left-middle .ivu-radio-checked .ivu-radio-inner {
+    border-color: #333;
+    box-shadow: none;
+}
+
+.main-left-middle .ivu-radio-inner:after {
+    background-color: #333 !important;
+}
+
+.main-left-middle .ivu-radio-inner {
+    background-color: #ccc;
+    border-color: #999;
+}
+
+.otc-detail .ivu-select-single .ivu-select-selection {
+    width: 13.25rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+
+.otc-detail .ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+    height: 1.8rem;
+    line-height: 1.8rem;
+    text-align: left;
+}
+
+.otc-detail .ivu-select-single .ivu-select-selection .ivu-select-placeholder:focus,
+.otc-detail .ivu-select-single .ivu-select-selection:hover {
+    border: 1px solid #dddee1;
+}
+
+.otc-detail .ivu-select {
+    width: auto;
+    border-color: #dddee1;
+    text-align: left;
+}
+
+.otc-detail .ivu-select:visited {
+    border-color: #dddee1;
+}
+
+.otc-detail .ivu-select-visible .ivu-select-selection {
+    border-color: #dddee1;
+    box-shadow: none;
+    text-align: left;
+}
+
+.otc-detail .ivu-select-single .ivu-select-selection:focus {
+    border-color: #dddee1;
+    box-shadow: none;
+}
+
+.otc-detail .ivu-select-item-selected {
+    color: #666;
+    background: #fff;
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+.otc-detail .ivu-select-item:hover {
+    color: #f3ba2f;
+    background: #edeef4;
+}
+
+.otc-detail .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.otc-detail .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+
+.otc-detail .otcTip.ivu-form-item-error .bgInput {
+    border-top: 1px solid #e13232;
+    border-right: 1px solid #e13232;
+    border-bottom: 1px solid #e13232
+}
+
+.order .model {
+    background: #fff;
+}
+
+.dealrecord :-ms-input-placeholder {
+    color: #eee;
+}
+
+.dealrecord .ivu-col-span-12 {
+    width: 5rem;
+}
+
+.dealrecord .ivu-select-single .ivu-select-selection {
+    height: 1.3rem;
+    border: 1px solid #eee;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0.25rem;
+}
+
+.dealrecord .ivu-row,
+.dealrecord .ivu-col-span-12 {
+    display: inline-block;
+}
+
+.dealrecord .ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+    height: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.dealrecord .ivu-input-icon {
+    display: none;
+}
+
+.dealrecord .ivu-input-icon-normal+.ivu-input {
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    border: 1px solid #eee;
+    color: #eee;
+    border-radius: 0.25rem;
+    background: rgba(0, 0, 0, 0);
+}
+
+.dealrecord .ivu-btn-primary {
+    background-color: #f3ba2f;
+    border: none;
+}
+
+.dealrecord .ivu-btn {
+    height: 1.3rem;
+    width: 2.5rem;
+    margin-left: 1rem;
+    border-radius: 0.25rem;
+    padding: 0;
+}
+
+.ivu-input-icon-validate {
+    display: none !important;
+}
+
+.tip .ivu-form-item-error-tip {
+    width: auto;
+    padding: 0 1rem !important;
+    height: 2rem;
+    line-height: 2rem;
+    border: 1px solid #1b1f34;
+    left: 50%;
+    text-align: center;
+    border-radius: 0.25rem;
+    background: #22263f;
+    box-shadow: 0 0 1px 1px #1b1a2b;
+    font-size: 0.6rem;
+    color: #fff;
+    transform: translateX(-50%);
+    z-index: 10;
+    left: 2.4rem;
+    white-space: nowrap;
+}
+.withCash .tip .ivu-form-item-error-tip  {
+    font-size: 0.7rem;
+}
+
+.submit-order .tip .ivu-form-item-error-tip {
+    width: auto;
+    padding: 0 1rem !important;
+    height: 2rem;
+    line-height: 2rem;
+    border: 1px solid #1b1f34;
+    left: 50%;
+    top: -0.5rem;
+    text-align: center;
+    border-radius: 0.25rem;
+    background: #22263f;
+    box-shadow: 0 0 1px 1px #1b1a2b;
+    font-size: 0.6rem;
+    color: #fff;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.login .tip .ivu-form-item-error-tip:before {
+    display: none;
+}
+
+.tip .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #22263f;
+    border-top: 1px solid #22263f;
+    transform: rotate(225deg);
+    background: #22263f;
+}
+
+.tip_code .ivu-form-item-error-tip {
+    width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #1b1f34;
+    top: -2.2rem;
+    left: 0;
+    border-radius: 0.25rem;
+    background: #22263f;
+    box-shadow: 0 0 1px 1px #1b1a2b;
+    padding: 0 1rem;
+    font-size: 0.6rem;
+    color: #fff;
+}
+
+.tip_code .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #22263f;
+    border-top: 1px solid #22263f;
+    transform: rotate(225deg);
+    background: #22263f;
+}
+
+.tip.ivu-form-item-error .ivu-input {
+    border-bottom: 1px solid #e13232 !important;
+}
+
+.tip.ivu-form-item-error .ivu-input:hover,
+.tip.ivu-form-item-error .ivu-input:focus {
+    border: 1px solid #e13232;
+    box-shadow: none;
+}
+
+.tip.ivu-form-item-error .ivu-input {
+    border: 1px solid #e13232;
+    box-shadow: none;
+}
+
+.ivu-input {
+    transition: none;
+}
+
+.agree_tip .ivu-form-item-error-tip {
+    width: auto;
+    height: 1.55rem;
+    line-height: 1.55rem;
+    text-align: center;
+    border: 1px solid #1b1f34;
+    top: -1.25rem;
+    left: -2.65rem;
+    border-radius: 0.25rem;
+    background: #22263f;
+    box-shadow: 0 0 1px 1px #1b1a2b;
+    padding: 0 1rem;
+    font-size: 0.6rem;
+    color: #fff;
+}
+
+.agree_tip .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.25rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: none;
+    border-left: 1px solid #22263f;
+    border-top: 1px solid #22263f;
+    transform: rotate(225deg);
+    background: #22263f;
+}
+
+.otcTip .ivu-form-item-error-tip {
+    width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #eee;
+    top: -2.25rem;
+    left: 17.5rem;
+    border-radius: 0.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.25rem 1px #eee;
+    padding: 0 1rem;
+    font-size: 0.6rem;
+    color: #e13232;
+}
+
+.otcTip .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    transform: rotate(225deg);
+    background: #fff;
+}
+
+/*个人账户图标icon*/
+
+.icon-add-member:before {
+    color: #8c8c8c;
+}
+
+/*个人账号设置手机号修改第二弹窗的下拉框（俞金梁）*/
+
+.select .ivu-select-selection {
+    border: 0;
+    height: 2rem;
+    line-height: 2rem;
+    box-shadow: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    width: 5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.select .ivu-form-item-error .ivu-select-selection {
+    border-color: #ed3f14;
+}
+
+/*.select .ivu-select-item-selected{
+  background: #fff;
+}
+.select .ivu-select-item-selected:hover{
+  background: #ccc;
+}*/
+
+.select .ivu-select {
+    float: left;
+}
+
+.select .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.select .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    height: 1.9rem;
+    line-height: 1.9rem;
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.select .ivu-select-item-selected {
+    background: #edeef4;
+    pointer-events: none;
+    cursor: pointer !important;
+}
+
+.select .ivu-select-item-selected .lableClass {
+    color: #f3ba2f;
+}
+
+.select .ivu-select-item-selected .valueClass {
+    color: #f3ba2f;
+}
+
+.select .ivu-select-item-focus {
+    background: #edeef4;
+}
+
+.select .ivu-select-item-focus .lableClass {
+    color: #f3ba2f;
+}
+
+.select .ivu-select-item-focus .valueClass {
+    color: #f3ba2f;
+}
+
+.select .ivu-select-item:hover {
+    background: #edeef4;
+}
+
+.select .ivu-select-item:hover .lableClass {
+    color: #f3ba2f;
+}
+
+.select .ivu-select-item:hover .valueClass {
+    color: #f3ba2f;
+}
+
+.select .ivu-select-visible .ivu-select-dropdown {
+    will-change: auto !important;
+}
+
+.select .ivu-select-dropdown {
+    width: 23rem !important;
+    height: 10rem;
+    left: 0rem !important;
+    padding-right: 0.25rem !important;
+}
+
+.select .ivu-select-group-title {
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+    color: #666;
+    height: 1.15rem;
+    line-height: 1.15rem;
+    border-bottom: 1px solid #eee;
+}
+
+.select .ivu-select-item {
+    height: 1.95rem;
+    line-height: 1.95rem;
+    border-bottom: 1px solid #eee;
+    padding: 0 0.25rem 0 0.5rem;
+}
+
+.select .ivu-form-item-error-tip {
+    width: 4.05rem !important;
+    left: 0.5rem !important;
+}
+
+.select .lableClass {
+    font-size: 0.7rem;
+    color: #666;
+    float: left;
+}
+
+.select .valueClass {
+    float: right;
+    color: #666;
+    font-size: 0.7rem;
+}
+
+.select ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 10rem;
+    background: #fff;
+}
+
+.select ::-webkit-scrollbar-thumb {
+    border-radius: 0.25rem;
+    background: #f4f4f4;
+    -webkit-box-shadow: none;
+}
+
+.select ::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+}
+
+.ivu-form-item-error .ivu-select-selection {
+    border-bottom: 1px solid #ed3f14;
+}
+
+.tabel-content .ivu-table th {
+    height: 2.5rem !important;
+}
+
+.tabel-content .ivu-table th .ivu-table-cell span {
+    font-size: 0.9rem !important;
+    color: #333333 !important;
+    font-weight: 500;
+}
+
+.tabel-content tr.ivu-table-row-hover td {
+    background: #eee !important;
+}
+
+.select .ivu-select-arrow {
+    right: 0.85rem;
+}
+
+/*钱包-划转下拉选择器 transfer-select*/
+
+.transfer-select .ivu-select-single .ivu-select-selection {
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.transfer-select .ivu-select-selection {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+}
+
+.transfer-select .ivu-select-arrow {
+    color: #fff;
+}
+
+.transfer-select .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.transfer-select .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 0.5rem;
+    color: #fff;
+}
+
+.transfer-select .ivu-select-selection-focused,
+.transfer-select .ivu-select-selection:hover,
+.transfer-select .ivu-select-visible .ivu-select-selection {
+    border-color: #fff;
+    box-shadow: none;
+}
+
+.ad-top-right .ivu-select-visible .ivu-select-selection {
+    border-color: #dddee1;
+    box-shadow: none;
+    text-align: left;
+}
+
+.ad-top-right .ivu-select-single .ivu-select-selection:hover {
+    border-color: #dddee1;
+    box-shadow: none;
+}
+
+.ad-top-right .ivu-select-single .ivu-select-selection:focus {
+    border-color: #dddee1;
+    box-shadow: none;
+}
+
+.ad-top-right .ivu-icon-ios-calendar-outline:before {
+    content: none;
+}
+
+.ad-top-right .ivu-icon-ios-calendar-outline:focus {
+    border-color: #dddee1;
+    box-shadow: none;
+}
+
+.ad-top-right .ivu-icon-ios-calendar-outline:hover {
+    border-color: #dddee1;
+    box-shadow: none;
+}
+
+.advert .ivu-radio-wrapper {
+    font-size: 0.7rem;
+    color: #999999;
+}
+
+.advert .ivu-radio-inner {
+    background-color: #ccc !important;
+    border: 1px solid #999 !important;
+}
+
+.advert .ivu-radio-inner:after {
+    background-color: #333;
+}
+
+.record-main-left .ivu-form-item-content .ivu-input-wrapper .ivu-input {
+    height: 2rem;
+    background: none;
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.record-main-left .ivu-form-item-content .ivu-input-wrapper .ivu-input:focus {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.record-main-left .ivu-form-item-content .ivu-input-wrapper .ivu-input:hover {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.record-main-right .ivu-form-item-content .ivu-input-wrapper .ivu-input {
+    height: 2rem;
+    background: none;
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.record-main-right .ivu-form-item-content .ivu-input-wrapper .ivu-input:focus {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.record-main-right .ivu-form-item-content .ivu-input-wrapper .ivu-input:hover {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.ad-top-right .ivu-form-item-content .ivu-input-wrapper .ivu-input {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.ad-top-right .ivu-form-item-content .ivu-input-wrapper .ivu-input:focus {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.ad-top-right .ivu-form-item-content .ivu-input-wrapper .ivu-input:hover {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+/*start*/
+
+.zf-way-ul-list .ivu-switch-checked:after {
+    left: 1.9rem;
+}
+
+.zf-way-ul-list .ivu-switch {
+    width: 3rem;
+    height: 1.2rem;
+    background-color: #D8D8D8;
+    border-radius: 5rem;
+    border-color: #D8D8D8;
+}
+
+.zf-way-ul-list .ivu-switch-checked {
+    border-color: #9BD18A;
+    background-color: #9BD18A;
+}
+
+.zf-way-ul-list .ivu-switch:focus {
+    box-shadow: none;
+}
+
+/*end*/
+
+/*个人设置手机号码设置的input。number去剪头*/
+
+.titltContent input::-webkit-outer-spin-button,
+.titltContent input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.titltContent input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/*定价交易市价交易的input的number去掉箭头样式*/
+
+.secondInput input.inputRight::-webkit-outer-spin-button,
+.secondInput input.inputRight::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.secondInput input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.secondInput input {
+    text-align: right;
+}
+
+/*交易中心左下*/
+
+.centerLeft .ivu-tabs-nav .ivu-tabs-tab {
+    font-size: 0.7rem;
+    padding: 0.5rem 1.7rem 0.5rem 1rem;
+}
+
+.centerLeft .ivu-tabs-ink-bar {
+    width: 2.8rem !important;
+    margin-left: 1rem;
+    padding: 0;
+    height: 0.25rem;
+}
+
+.centerLeft .ivu-tabs-nav-scroll {
+    height: 1.9rem;
+}
+
+.centerLeft .ivu-tabs-bar {
+    margin-bottom: 0.15rem;
+}
+
+.zf-way-ul-list .ivu-switch:after {
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+/*dealcenterAll的右下中的提示*/
+
+.reminder .ivu-tooltip {
+    width: 100%;
+}
+
+.reminder .ivu-tooltip-rel {
+    width: 100%;
+}
+
+.reminder .ivu-tooltip-inner {
+    font-size: 0.6rem;
+    color: #fff;
+    width: 7.5rem;
+    height: 2rem;
+    padding: 0.65rem 0;
+    text-align: center;
+    border: 1px solid #2e3442;
+    line-height: 0.6rem;
+    background-color: #272c39;
+    text-shadow: 0rem 0.3rem 0.3rem rgba(153, 153, 153, 0.6), 1px 0 1px #2e3442, -1px 0 1px #2e3442, 0 1PX 1px #2e3442, 0 -1PX 1px #2e3442;
+    mix-blend-mode: multiply;
+}
+
+.reminder .ivu-tooltip-popper[x-placement^=top] .ivu-tooltip-arrow {
+    border-top-color: #272c39;
+}
+
+/*....*/
+
+.zf-ul .zf-ul-li .ivu-icon-ios-arrow-down:before {
+    font-size: 1rem !important;
+}
+
+.zf-ul .zf-ul-li .ivu-icon-ios-arrow-down:before {
+    font-size: 1rem !important;
+}
+
+.zf-ul .zf-ul-li .ivu-icon-ios-arrow-down:before {
+    font-size: 1rem !important;
+}
+
+/*账户设置中实名认证的证件类型下拉框*/
+
+.idCardSelect .ivu-select-selected-value {
+    height: 2rem !important;
+    line-height: 2rem !important;
+    color: #333;
+    font-size: 0.7rem !important;
+    line-height: 2rem;
+    padding-left: 0.5rem !important;
+}
+
+.idCardSelect .ivu-select-selection {
+    height: 2rem;
+    border: 1px solid #D9D9D9;
+    box-shadow: none;
+}
+
+.idCardSelect .ivu-select-placeholder {
+    height: 2rem !important;
+    line-height: 2rem !important;
+}
+
+.idCardSelect .ivu-select-selection-focused,
+.idCardSelect .ivu-select-selection:hover {
+    border-color: #eee;
+}
+
+.idCardSelect .ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+    color: #ccc;
+}
+
+.idCardSelect .ivu-select-item-selected,
+.idCardSelect .ivu-select-item-selected:hover {
+    color: #f3ba2f;
+    background: #edeef4;
+}
+
+.idCardSelect .ivu-select {
+    width: 23rem !important;
+}
+
+.idCardSelect .ivu-select-item:hover {
+    color: #f3ba2f !important;
+    background: #edeef4 !important;
+}
+
+/*二次验证开启关闭*/
+
+.testTwiceSelector .ivu-select-selected-value {
+    height: 2rem !important;
+    line-height: 2rem !important;
+    color: #333;
+    font-size: 0.7rem !important;
+    line-height: 2rem;
+    padding-left: 0.5rem !important;
+}
+
+.testTwiceSelector .ivu-select-selection {
+    height: 2rem;
+    border: 1px solid #eee;
+    box-shadow: none;
+}
+
+.testTwiceSelector .ivu-select-placeholder {
+    height: 2rem !important;
+    line-height: 2rem !important;
+}
+
+.testTwiceSelector .ivu-select-selection-focused,
+.testTwiceSelector .ivu-select-selection:hover {
+    border-color: #eee;
+}
+
+.testTwiceSelector .ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+    color: #ccc;
+}
+
+.testTwiceSelector .ivu-select-item-selected,
+.testTwiceSelector .ivu-select-item-selected:hover {
+    color: #f3ba2f !important;
+    background: #edeef4 !important;
+}
+
+.testTwiceSelector .ivu-select {
+    width: 23rem !important;
+}
+
+.testTwiceSelector .ivu-select-dropdown {
+    margin: 0 !important;
+    box-shadow: 0 0.25rem 0.3rem rgba(0, 0, 0, .2);
+}
+
+.testTwiceSelector .ivu-select-item:hover {
+    color: #f3ba2f !important;
+    background: #edeef4 !important;
+}
+
+.testTwiceSelector .ivu-select-dropdown-list {
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+}
+
+.testTwiceSelector .ivu-form-item-error .ivu-select-selection {
+    height: 2rem;
+    border: 1px solid #ed3f14;
+    outline: 0;
+}
+
+.backHui ::-webkit-input-placeholder {
+    color: #ccc !important;
+    font-size: 0.6rem !important;
+}
+
+.codeError_tip input {
+    border-bottom: 1px solid #ed3f14 !important;
+}
+
+/*资产冻结记录*/
+
+.otc-record-content .otcTip .ivu-form-item-error-tip {
+    left: 8rem !important;
+}
+
+.otc-record-content .ivu-form-item-required .ivu-form-item-label:before {
+    content: none;
+}
+
+.nationalSelect .ivu-select-dropdown {
+    background: #fff;
+    border-radius: 0.25rem;
+    overflow: inherit;
+}
+
+.nationalSelect .ivu-select-dropdown ul {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 0.15rem;
+    overflow-y: scroll;
+    /* height: 10rem; */
+}
+
+.nationalSelect .ivu-select-dropdown .ivu-select-dropdown-list .ivu-select-item {
+    color: #fff;
+}
+
+.nationalSelect .ivu-select-dropdown .ivu-select-item:hover {
+    background: #171a2a;
+    color: #f3ba2f;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.nationalSelect .ivu-select-item-selected.ivu-select-item-focus,
+.nationalSelect .ivu-select-item:hover,
+.nationalSelect .ivu-select-item-focus {
+    background: #171a2a;
+}
+
+/*wml-start*/
+
+.table-data .ivu-table th {
+    height: 2.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.table-data .ivu-table td,
+.otc-detail .ivu-table th {
+    border-bottom: 1px solid #eee;
+}
+
+.table-data .ivu-table-wrapper {
+    border: none;
+    position: static !important;
+}
+
+.MyAdvertising .tabel-content .ivu-table-wrapper {
+    border: none;
+    position: static !important;
+}
+
+/*end*/
+
+/*工单*/
+
+.ticketClass .ivu-select-not-found {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 0.3rem;
+}
+
+.ticketClass .ivu-select-dropdown {
+    border-radius: 0.4rem;
+    overflow: inherit;
+}
+
+.ticketClass .ivu-select-visible .ivu-select-selection {
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.ticketClass .ivu-select-item {
+    color: #fff;
+}
+
+.ticketClass .ivu-select-dropdown-list {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.ticketClass .ivu-select-dropdown .ivu-select-item:hover {
+    background: #171a2a;
+    color: #f3ba2f;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.ticketClass .ivu-select-item-selected.ivu-select-item-focus {
+    background: rgba(0, 0, 0, 0.8);
+    color: #f3ba2f;
+}
+
+.ticketClass .ivu-select-item-selected,
+.ticketClass .ivu-select-item-selected:hover {
+    background: #171a2a !important;
+}
+
+.ivu-upload-list {
+    width: 14.5rem;
+}
+
+.ivu-upload-list-file:hover {
+    background: #333;
+}
+
+.ivu-upload-list-file {
+    margin-bottom: 0.5rem;
+}
+
+.ivu-upload-list-file:hover>span {
+    color: #fff;
+}
+
+.pageOrder .ivu-page-item a {
+    color: #eee;
+}
+
+.pageOrder .ivu-page-item-active {
+    border-color: #eee;
+    background: #eee;
+}
+
+.pageOrder .ivu-page-item-active a {
+    color: #12151a;
+}
+
+.pageOrder .ivu-page-item:hover {
+    border-color: #eee;
+    background: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.pageOrder .ivu-page-item:focus {
+    background: #4F69C2;
+}
+
+.pageOrder .ivu-page-item:hover a {
+    color: #4E5E90;
+    transition: all .3s ease-in-out;
+}
+
+.pageOrder .ivu-page-item {
+    border-color: #eee;
+}
+
+.pageOrder a {
+    color: #eee;
+}
+
+.pageOrder .ivu-page-next:hover,
+.pageOrder .ivu-page-prev:hover {
+    border-color: #eee;
+}
+
+.pageOrder .ivu-page-next:hover a,
+.pageOrder .ivu-page-prev:hover a {
+    color: #eee;
+}
+
+.pageOrder .ivu-page-next {
+    background: none;
+}
+
+/*账号设置中input的placeholder的样式*/
+
+#huisekuang input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 0.6rem;
+}
+
+#huisekuang input::-moz-placeholder {
+    color: #ccc;
+    font-size: 0.6rem;
+}
+
+#huisekuang input::-ms-input-placeholder {
+    color: #ccc;
+    font-size: 0.6rem;
+}
+
+#huisekuang input::-moz-placeholder {
+    color: #ccc;
+    font-size: 0.6rem;
+}
+
+/*wml-我的广告日历选择框*/
+
+.ad-top-right .ivu-input-icon-normal+.ivu-input {
+    padding-right: 0 !important;
+}
+
+/*账号设置中input的样式，提示的样式*/
+
+.accountSettingInputPopover .ivu-form-item-content {
+    line-height: 0;
+}
+
+.accountSettingInput {
+    /*height: 2rem;*/
+}
+
+.limitWidth {
+    width: 15rem !important;
+    float: left;
+}
+
+.limitWid {
+    width: 15.5rem !important;
+}
+
+.limitHeight {
+    float: inherit;
+}
+
+.accountSettingInputPopover .ivu-form-item-error .ivu-input {
+    box-shadow: none;
+    border-color: #ed3f14 !important;
+    outline: 0;
+}
+
+.accountSettingInputPopover .ivu-form-item-error input.ivu-input:focus {
+    box-shadow: none;
+    border-color: #ed3f14;
+    outline: 0;
+}
+
+/*.accountSettingInputPopover .ivu-form-item-error .ivu-input:hover {
+    box-shadow: none;
+    outline: 0;
+    border-color: 1px solid #ed3f14;
+}*/
+
+.accountSettingInputPopover .ivu-form-item {
+    margin-bottom: 2rem;
+}
+
+.padding-label .ivu-form-item-error-tip {
+    left: 3.3rem;
+}
+
+/*提示框*/
+
+.accountSettingInputPopover .ivu-form-item-error-tip {
+    /*width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #eee;
+    top: 0.5rem;
+    left: 7.75rem;
+    border-radius: 0.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.25rem 1px #eee;
+    padding: 0 1rem;
+    font-size: 0.6rem;
+    color: #e13232;*/
+}
+
+.accountSettingInputPopover .ivu-form-item-error-tip:before {
+    /*content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    transform: rotate(225deg);
+    background: #fff;*/
+}
+
+.accountSettingInputPopover .ivu-form-item-label {
+    color: #666;
+    font-size: 0.8rem;
+    /*padding: 0 0 0.5rem 0 !important;*/
+    text-align: left;
+}
+
+.font-16 .ivu-form-item-label {
+    font-size: 0.8rem;
+}
+
+.accountSettingInputPopover .ivu-form-item-required .ivu-form-item-label:before {
+    content: '' !important;
+    margin-right: 0 !important;
+}
+
+.accountSettingInputPopover .twentyFourAgain {
+    margin-top: 1.2rem !important;
+}
+
+.accountSettingInput .ivu-input {
+    height: 2.2rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 0.25rem;
+    padding-left: 0.5rem;
+    color: #333;
+    font-size: 0.7rem;
+    box-shadow: none;
+    outline: 0;
+}
+
+/*select国际吗*/
+
+.selectInternational .ivu-form-item {
+    margin-top: 0 !important;
+}
+
+.specialRight {
+    height: 2rem !important;
+}
+
+.specialRight .ivu-input {
+    height: 2rem !important;
+    border: 1px solid #D9D9D9 !important;
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.specialLeft {
+    height: 2rem !important;
+}
+
+.specialLeft .ivu-input {
+    height: 2rem !important;
+    border-left-width: 1px !important;
+    border-top-width: 1px !important;
+    border-bottom-width: 1px !important;
+    /*border-right: 0 !important;*/
+    border-style: solid !important;
+    border-color: #eee !important;
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.accountSettingInput .ivu-input:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.accountSettingInput .ivu-input:hover {
+    box-shadow: none;
+    outline: 0;
+}
+
+.accountSettingInput input.ivu-input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 0.6rem;
+}
+
+.accountSettingInput input.ivu-input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ccc;
+    font-size: 0.6rem;
+}
+
+.accountSettingInput input.ivu-input::-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+    font-size: 0.6rem;
+}
+
+.accountSettingInput input.ivu-input::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ccc;
+    font-size: 0.6rem;
+}
+
+.special .ivu-form-item {
+    margin-bottom: 1rem !important;
+}
+
+.font-16 .ivu-form-item {
+    margin-top: 1rem;
+}
+
+.special .btn {
+    margin-top: 2rem !important;
+}
+
+.special .ivu-form-item-error-tip {
+    /*top: -2.25rem;*/
+}
+
+.special2 .ivu-form-item-error-tip {
+    /*top: -1rem;*/
+}
+
+.btn {
+    height: 2rem;
+}
+
+.btn .ivu-form-item-content {
+    overflow: hidden;
+    float: right;
+}
+.btnTwos .ivu-form-item-content {
+	float: inherit !important;
+	margin: 0 5.25rem;
+}
+
+.btnLarge {
+    border-top: 1px solid #D9D9D9;
+    padding: 1.75rem 0 0 3.75rem;
+}
+
+.btnLarge .ivu-btn {
+    width: 5rem !important;
+}
+
+.btn .ivu-btn {
+    float: left;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.15rem;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    background: #4F69C2;
+    outline: 0;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn .left {
+    margin-right: 1rem;
+}
+
+.btn .ivu-btn:active {
+    outline: 0;
+    border: 0;
+}
+
+.btn .right {
+    color: #666;
+    background: transparent;
+    border: 1px solid #D9D9D9;
+}
+
+.btn .margin-right {
+    margin-right: 1rem;
+}
+
+.btn .longer {
+    width: 6rem !important;
+}
+
+.btn .ivu-btn-primary:focus {
+    box-shadow: none;
+    border: 1px solid #D9D9D9;
+}
+
+/*交易中心的input框的提示iView*/
+
+.inputRight .ivu-input {
+    height: 2rem;
+    line-height: 2rem;
+    background: #171a21;
+    border: 1px solid #eee;
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.secondInput .ivu-form-item-validating .ivu-input-icon+.ivu-input {
+    padding: 0.2rem 0.35rem;
+}
+
+.inputRight .ivu-input:hover {
+    border-color: #f3ba2f;
+}
+
+.inputRight .ivu-input:focus {
+    border-color: #f3ba2f;
+}
+
+.dealTip .ivu-form-item-error-tip {
+    top: -2.1rem !important;
+}
+
+/*生日的select*/
+
+/*.dateSelectType*/
+
+.dateSelectType .ivu-select-item-selected {
+    background: #f3ba2f;
+    color: #fff;
+}
+
+.dateSelectType .ivu-select-selection {
+    border: 0;
+    height: 2rem !important;
+    line-height: 2rem !important;
+    box-shadow: none;
+    border: 1px solid #999;
+}
+
+.dateSelectType .ivu-select {
+    float: left;
+}
+
+.fixedFour .ivu-form-item-error .ivu-select-selection {
+    border: 1px solid #ed3f14;
+}
+
+.fixedFour .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.fixedFour .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    height: 1.9rem !important;
+    line-height: 1.9rem !important;
+}
+
+.dateSelectType .ivu-select-dropdown {
+    width: 5rem !important;
+    height: 5rem;
+    border: 1px solid #f3ba2f;
+    top: 1.75rem !important;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.dateSelectType .ivu-select-group-title {
+    text-align: center;
+    padding-left: 0;
+    height: 1rem;
+    font-size: 0.7rem;
+    color: #666;
+    padding: 0 !important;
+    line-height: 1rem;
+}
+
+.fixedFour .ivu-form-item {
+    margin-bottom: 0 !important;
+}
+
+.fixedFour .ivu-form-item-error-tip {
+    width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #eee;
+    top: -2.25rem;
+    left: 0.55rem;
+    border-radius: 0.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.25rem 1px #eee;
+    padding: 0 1rem;
+    font-size: 0.6rem;
+    color: #e13232;
+}
+
+.fixedFour .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    transform: rotate(225deg);
+    background: #fff;
+}
+
+.fixedFour .ivu-form-item-error .ivu-select-visible .ivu-select-selection {
+    box-shadow: none;
+}
+
+.fixedFour .ivu-select-visible .ivu-select-selection {
+    border-color: #f3ba2f;
+}
+
+.dateSelectType .ivu-form-item-error .ivu-select-selection {
+    border: 1px solid #ed3f14;
+}
+
+.dateSelectType .ivu-select-placeholder {
+    color: #666 !important;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.dateSelectType .ivu-select-selected-value {
+    text-align: center;
+    height: 2rem !important;
+    line-height: 2rem !important;
+}
+
+.dateSelectType .ivu-select-item-selected.ivu-select-item-focus {
+    background: #f3ba2f;
+    color: #fff;
+}
+
+.dateSelectType .ivu-select-item:hover {
+    background: #f3ba2f;
+    color: #fff;
+}
+
+.dateSelectType .ivu-select-item {
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    color: #666;
+    font-size: 0.7rem;
+    padding: 0 !important;
+}
+
+.dateSelectType ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: auto;
+    background: #fff;
+    border-radius: 0.25rem;
+}
+
+.dateSelectType ::-webkit-scrollbar-thumb {
+    border-radius: 0.25rem;
+    background: #f4f4f4;
+    -webkit-box-shadow: none;
+}
+
+.dateSelectType ::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 0.25rem;
+    border: 0;
+    -webkit-box-shadow: none;
+}
+
+/*编辑的tip*/
+
+.briefIntroTip .ivu-form-item-error-tip {
+    width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #eee;
+    top: -2.25rem;
+    left: 50%;
+    margin-left: -1.95rem;
+    border-radius: 0.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.25rem 1px #eee;
+    padding: 0 1rem;
+    font-size: 0.6rem;
+    color: #e13232;
+}
+
+.briefIntroTip .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    transform: rotate(225deg);
+    background: #fff;
+}
+
+.briefIntro textarea.ivu-input {
+    height: 7.7rem;
+    resize: none;
+    border-color: #eee;
+    border-radius: 0.25rem;
+    font-size: 0.7rem;
+    color: #333;
+}
+
+.briefIntro textarea.ivu-input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 0.7rem;
+}
+
+.briefIntro textarea.ivu-input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ccc;
+    font-size: 0.7rem;
+}
+
+.briefIntro textarea.ivu-input::-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+    font-size: 0.7rem;
+}
+
+.briefIntro textarea.ivu-input::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ccc;
+    font-size: 0.7rem;
+}
+
+.briefIntro .ivu-input:focus {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.briefIntro .ivu-input:hover {
+    border-color: #eee;
+}
+
+.briefIntro .ivu-form-item-error .ivu-input:focus {
+    box-shadow: none;
+    border-color: #ed3f14;
+}
+
+.briefIntro .ivu-form-item-error .ivu-input {
+    border-color: #ed3f14;
+}
+
+.briefIntro ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: auto;
+    background: #fff;
+    border-radius: 0.25rem;
+}
+
+.briefIntro ::-webkit-scrollbar-thumb {
+    border-radius: 0.25rem;
+    background: #f4f4f4;
+    -webkit-box-shadow: none;
+}
+
+.briefIntro ::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 0.25rem;
+    border: 0;
+    -webkit-box-shadow: none;
+}
+
+/*wml-disable颜色*/
+
+.zf-way-ul .ivu-switch-disabled:after {
+    background: #ffffff !important;
+}
+
+/*账号性别radio*/
+
+.radioSEX .ivu-form-item-content {
+    height: 0.8rem;
+    line-height: 0.7rem;
+}
+
+.radioSEX .ivu-form-item {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.radioSEX .ivu-radio-group {
+    overflow: hidden;
+    margin-left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.radioSEX .ivu-radio-wrapper {
+    float: left;
+    margin-right: 0rem;
+}
+
+.radioSEX .ivu-radio-checked .ivu-radio-inner {
+    border-color: #999;
+    background: #ccc;
+}
+
+.radioSEX .ivu-radio-inner {
+    border-color: #999;
+    background: #ccc;
+}
+
+.radioSEX .ivu-radio-inner:after {
+    background-color: #333;
+}
+
+.radioSEX .ivu-radio {
+    margin-right: 1rem;
+    font-size: 0.7rem;
+    color: #666;
+}
+
+/*交易中心的左上的下拉表格*/
+
+.marketHouseSelect .ivu-table-wrapper {
+    padding: 0 0.1rem;
+}
+
+.marketHouseSelect .ivu-table {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    background: #272c39;
+}
+
+.marketHouseSelect .ivu-table-header {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.marketHouseSelect .ivu-table th {
+    border-bottom: 0;
+    background: #272c39;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.25rem !important;
+    height: 1.35rem !important;
+    color: #999;
+    font-size: 0.6rem;
+    line-height: 0.6rem;
+}
+
+.marketHouseSelect .ivu-table th .ivu-table-cell {
+    padding-left: 0.4rem;
+    padding-right: 0 !important;
+}
+
+.marketHouseSelect .ivu-table td {
+    border-bottom: 0;
+    background: #272c39;
+    padding: 0.25rem 0;
+    height: 1.5rem;
+    line-height: 1rem;
+    font-size: 0.6rem;
+}
+
+.marketHouseSelect .ivu-table td .ivu-table-cell {
+    padding-left: 0.4rem;
+    padding-right: 0 !important;
+    height: 1rem;
+}
+
+.marketHouseSelect .ivu-table-overflowX {
+    overflow-x: hidden;
+}
+
+.marketHouseSelect .ivu-table table {
+    /*padding-right:0.1rem;*/
+    width: 17.3rem !important;
+}
+
+.marketHouseSelect .ivu-table-row {
+    outline: none;
+    border: none;
+}
+
+.marketHouseSelect .ivu-table-row-hover td {
+    background: #1c2029 !important;
+}
+
+.marketHouseSelect .ivu-table-row-highlight td {
+    background: #1c2029 !important;
+}
+
+.marketHouseSelect .ivu-table-body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: auto;
+    max-height: 30.45rem;
+}
+
+.marketHouseSelect .ivu-table-sort i.on {
+    color: #f3ba2f;
+}
+
+.marketHouseSelect .ivu-icon-arrow-down-b:before {
+    content: "\F104" !important;
+}
+
+/*下拉表格中的input框*/
+
+.dealSelectInputOut .ivu-input-group .ivu-input {
+    height: 2rem;
+    background: #272c39;
+    border-color: #eee !important;
+    border-right: 0 !important;
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.dealSelectInputOut .ivu-input-group-append,
+.dealSelectInputOut .ivu-input-group>.ivu-input:last-child {
+    background: #272c39;
+    border-color: #eee !important;
+}
+
+/*账号设置中的switch*/
+
+.accountSecuritySwitch .ivu-switch:focus {
+    box-shadow: none;
+}
+
+.accountSecuritySwitch .ivu-switch:after {
+    left: 0;
+}
+
+/*tips*/
+
+.zf-way .ivu-form-item-error-tip {
+    /*width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #eee;
+    top: -0.75rem;
+    left: 50%;
+    border-radius: 0.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.25rem 1px #eee;
+    padding: 0 1rem;
+    color: #ff0000;*/
+    font-size: 0.6rem;
+}
+
+.zf-way .ivu-form-item-error-tip:before {
+    /*content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    transform: rotate(225deg);
+    background: #fff;*/
+}
+
+/*.zf-way .ivu-form-item{*/
+
+/*margin-bottom: 0;*/
+
+/*}*/
+
+.add-zf-ways .ivu-form-item-content {
+    font-size: 0.7rem;
+    color: #666666;
+    margin-bottom: 0.25rem;
+}
+
+.add-zf-margin .ivu-form-item-content {
+    margin: 0 0 1.5rem 0;
+}
+
+.add-zf-ways .ivu-select-single .ivu-select-selection {
+    height: 2rem;
+}
+
+.add-zf-ways .ivu-select {
+    color: #333333;
+}
+
+.add-zf-ways .ivu-select-item-selected:hover {
+    background-color: #fff;
+    color: #666;
+}
+
+.add-zf-ways .ivu-select-item-selected {
+    background-color: #edeef4;
+    color: #666;
+}
+
+.add-zf-ways .ivu-select-item:hover {
+    background-color: #edeef4;
+    color: #f3ba2f;
+}
+
+.add-zf-ways .ivu-select-item {
+    color: #666;
+    font-size: 0.7rem;
+}
+
+.add-zf-ways .ivu-select-item-focus {
+    background: #fff;
+}
+
+.add-zf-ways .ivu-select-item-focus:hover {
+    background-color: #edeef4;
+}
+
+.add-zf-ways .ivu-input {
+    height: 2rem;
+    color: #333;
+    font-size: 0.7rem;
+}
+
+.add-zf-ways .relName .ivu-input {
+    background-color: #f3f3f3 !important;
+}
+
+.add-zf-ways .name .ivu-input {
+    margin-bottom: 1rem !important;
+}
+
+.add-zf-ways ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    font-size: 0.6rem !important;
+}
+
+.add-zf-ways ::-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-size: 0.6rem !important;
+}
+
+.add-zf-ways :-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-size: 0.6rem !important;
+}
+
+.add-zf-ways :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    font-size: 0.6rem !important;
+}
+
+.add-zf-ways .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.7rem;
+}
+
+.add-zf-ways .ivu-input:focus {
+    border-color: #5D75C7 !important;
+}
+
+.add-zf-ways .ivu-form-item-error .ivu-input:focus {
+    /*border-color: #ed3f14;*/
+    box-shadow: none;
+}
+
+.add-zf-ways .ivu-input:hover {
+    /*border-color: #D9D9D9 !important;*/
+}
+
+.add-zf-ways .ivu-btn-primary {
+    background-color: #4F69C2;
+    width: 5rem;
+    height: 2rem;
+    color: #fff;
+    font-size: 0.7rem;
+    border: none;
+    outline: none;
+}
+
+.add-zf-ways .ivu-btn-primary:hover {
+    background-color: #4F69C2;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.upload_file {
+	height: auto;
+	border: 1px dashed #D9D9D9;
+	margin: 0.25rem 0 1rem 0;
+}
+
+.upload_file .ivu-btn:hover {
+    color: #ccc;
+    background-color: #fff;
+    border-color: #eee;
+}
+
+.upload_file .ali-pay-code {
+    position: absolute;
+    display: inline-block;
+    width: 5rem;
+    height: 4.5rem;
+    top: 3.5rem;
+    left: 50%;
+    margin-left: -2.25rem;
+    cursor: pointer;
+}
+
+.upload_file .ivu-btn-ghost:hover {
+    color: #ccc;
+    background-color: #fff;
+    border-color: #eee;
+}
+
+.upload_file .ivu-btn {
+    width: 22.85rem;
+    height: 9rem;
+    line-height: 0;
+    background-color: #fff;
+    border: 1px dashed #eee;
+    border-bottom: none;
+    color: #333;
+    font-size: 0.7rem;
+    /*text-align: left;*/
+}
+
+.upload_file .ivu-btn-ghost:focus {
+    box-shadow: none;
+}
+
+.upload_file .ivu-btn:focus {
+    box-shadow: none;
+}
+
+.add-zf-ways .ivu-select-visible .ivu-select-selection {
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.add-zf-ways .ivu-select-selection:hover {
+    border-color: #eee;
+}
+
+.upload_file .ivu-btn {
+    max-width: 23rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.add-zf-ways .ivu-select-selection {
+    border: 1px solid #eee;
+}
+
+/*登录更改样式*/
+
+.login .verifycodelabel {
+    position: absolute;
+    top: -0.7rem;
+    margin-top: 0 !important;
+    left: 0.1rem;
+}
+
+.accountVerify {
+    min-height: 37.5rem;
+}
+
+.login-picture {
+    display: inline-block;
+    width: 2rem;
+}
+
+.login .register .mailCode {
+    /*position: absolute;*/
+    /*right: 0;*/
+    bottom: 0;
+    /*font-size: 0.7rem;*/
+    /*background: rgba(0, 0, 0, 0);*/
+    /*color: #f3ba2f;*/
+    /*border-radius: 0;*/
+    /*border: none;*/
+}
+
+.login .ivu-tabs-ink-bar {
+    background-color: #4F69C2;
+    height: 0.2rem;
+    bottom: -0.2rem;
+}
+
+.login-slider .ivu-tabs-nav .ivu-tabs-tab {
+    width: 50%;
+    text-align: center;
+    padding: 0.4rem 0 0.75rem 0;
+    margin: 0;
+}
+
+.login .ivu-input-wrapper .ivu-input:focus {
+    border: 1px solid #5D75C7 !important;
+}
+
+.record-content-top a {
+    color: #999999;
+}
+
+.record-content-top a:hover {
+    color: #999999;
+}
+
+.record-content-top a:visited {
+    color: #999999;
+}
+
+.advert .ivu-checkbox-checked .ivu-checkbox-inner:after {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    top: 0.1rem;
+    left: 0.1rem;
+    border: none;
+    background: #0a0a0a;
+}
+
+.advert .ivu-checkbox-inner {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.advert .ivu-checkbox-inner {
+    background: #cccccc;
+    border-color: #999999 !important;
+    border-radius: 50%;
+}
+
+.advert .ivu-checkbox-wrapper {
+    margin-top: 0.75rem;
+}
+
+.login .nationalPhone,
+.login .national {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.login .nationalPhone .ivu-select-dropdown,
+.login .nationalNum .ivu-select-dropdown {
+    width: 18.15rem !important;
+    height: 19rem;
+    left: 1px !important;
+    top: 3.05rem !important;
+    overflow-y: scroll !important;
+}
+
+.login .nationalAccountDrop .ivu-select-dropdown {
+    width: 25rem !important;
+    left: -0.45rem !important;
+    top: 2.9rem !important;
+}
+.login .nationPhoneAdd .ivu-select-dropdown {
+	top: 2.05rem !important;
+}
+.register-slider .nationalNum .ivu-select-dropdown {
+    width: 23.5rem !important;
+    top: 3.8rem !important;
+    background: #FFFFFF;
+    box-shadow: 0 0.1rem 0.55rem 0 rgba(192, 192, 192, 0.50);
+}
+
+.login .nationalNum .ivu-dropdown-rel a {
+    color: #95a1bd !important;
+    font-size: 0.7rem;
+}
+
+.login .nationalNum .ivu-dropdown-rel a .ivu-icon {
+    margin-left: 1rem;
+    position: absolute;
+    top: 0.8rem;
+    left: 1.8rem;
+}
+
+.login .nationalDrop {
+    width: 5rem;
+    height: 2rem;
+    line-height: 2rem;
+    /*border-bottom: 1px solid #95a1bd !important;*/
+}
+
+.login .line {
+    background: #95a1bd;
+    height: 1rem;
+    width: 0.1rem;
+    position: absolute;
+    left: 4.4rem;
+    line-height: 1rem;
+    top: 1.5rem;
+}
+
+.login .nationalPhone .ivu-select-input {
+    width: 5rem;
+    padding: 0 !important;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.login .nationalPhone .ivu-select-input::-webkit-input-placeholder,
+.login .ivu-input::-webkit-input-placeholder {
+    color: #95a1bd;
+    font-size: 0.7rem;
+}
+
+.login .nationalPhone .ivu-select-input:-moz-placeholder,
+.login .ivu-input::-moz-placeholder {
+    color: #95a1bd;
+    font-size: 0.7rem;
+}
+
+.login .nationalPhone .ivu-select-input::-moz-placeholder,
+.login .ivu-input::-moz-placeholder {
+    color: #95a1bd;
+    font-size: 0.7rem;
+}
+
+.login .nationalPhone .ivu-select-input:-ms-input-placeholder,
+.login .ivu-input:-ms-input-placeholder {
+    color: #95a1bd;
+    font-size: 0.7rem;
+}
+
+.login .ivu-select-selection .ivu-select-placeholder {
+    color: #95a1bd;
+    font-size: 0.7rem;
+}
+
+.login .nationalPhone .ivu-icon {
+    color: #95a1bd;
+    font-size: 0.7rem;
+    height: 2rem;
+    line-height: 2rem;
+    position: absolute;
+    left: 3.5rem;
+}
+
+.login .nationalPhone .line {
+    background: #95a1bd;
+    height: 1rem;
+    width: 1px;
+    position: absolute;
+    left: 4.5rem;
+    line-height: 1rem;
+    top: 0.5rem;
+}
+
+.login .inputPhone .ivu-input {
+    /*padding-left: 1rem!important;*/
+}
+
+.login .nationalNum .line {
+    background: #95a1bd;
+    height: 1rem;
+    width: 0.1rem;
+    position: absolute;
+    left: 5.25rem;
+    line-height: 1rem;
+    top: 1.5rem;
+}
+
+.login .nationalPhone .inputPhone .ivu-input {
+    padding-left: 1rem;
+}
+
+.login .nationalPhone .ivu-select-dropdown,
+.login .nationalNum .ivu-select-dropdown {
+    overflow: inherit;
+    border-radius: 0 !important;
+}
+
+.login .nationalPhone .ivu-select-dropdown .ivu-select-not-found,
+.login .nationalNum .ivu-select-dropdown .ivu-select-not-found,
+.login .nationalNum .ivu-select-dropdown .ivu-dropdown-menu {
+    background: #fff !important;
+    border-radius: 0.15rem;
+    color: #fff;
+    font-size: 0.7rem;
+    border-radius: 0 !important;
+}
+
+.login .nationalNum .ivu-select-dropdown .ivu-dropdown-menu .ivu-dropdown-item {
+    color: #999;
+    font-size: 0.7rem;
+}
+
+.login .nationalNum .ivu-select-dropdown .ivu-dropdown-menu .ivu-dropdown-item:hover {
+    background: #EEF2F6;
+}
+
+.login .nationalPhone .ivu-select-dropdown .ivu-select-loading {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 0.15rem;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.login .nationalPhone .ivu-select-dropdown .ivu-select-dropdown-list,
+.login .nationalNum .ivu-select-dropdown .ivu-select-dropdown-list {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 0.15rem;
+}
+
+.login .nationalPhone .ivu-select-dropdown .ivu-select-dropdown-list .ivu-select-item,
+.login .nationalNum .ivu-select-dropdown .ivu-select-dropdown-list .ivu-select-item {
+    color: #fff;
+}
+
+.login .nationalPhone .ivu-select-dropdown .ivu-select-dropdown-list .ivu-select-item-focus,
+.login .nationalNum .ivu-select-dropdown .ivu-select-dropdown-list .ivu-select-item-focus {
+    background: #171a2a !important;
+}
+
+.login .nationalPhone .ivu-select-dropdown .ivu-select-dropdown-list .ivu-select-item:hover,
+.login .nationalNum .ivu-select-dropdown .ivu-select-dropdown-list .ivu-select-item:hover {
+    background: #171a2a;
+}
+
+.login .nationalPhone .nationalNum {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.login .loginCode {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: none;
+    border: none;
+    color: #f3ba2f;
+    font-size: 0.7rem;
+}
+
+.approve .ivu-checkbox-checked .ivu-checkbox-inner:after {
+    top: 0.1rem !important;
+    left: 0.25rem !important;
+}
+
+.approve .ivu-checkbox-checked .ivu-checkbox-inner {
+    background: #2d8cf0;
+}
+
+.approve .ivu-checkbox-wrapper {
+    font-size: 0.7rem;
+}
+
+.loadingOut .spin-icon-load {
+    animation: ani-spin 1s linear infinite;
+}
+
+@keyframes ani-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loadingOut .ivu-spin-main {
+    position: fixed !important;
+}
+
+.record-content-main .main-left-middle .ivu-input-number {
+    width: 10.8rem !important;
+    height: 2.25rem !important;
+    line-height: 2.25rem !important;
+}
+
+.record-content-main .ivu-input-wrapper {
+    width: 99%;
+}
+
+.record-content-main .ivu-select-single .ivu-select-selection {
+    height: 2.25rem;
+}
+
+.record-content-main .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.record-content-main .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    line-height: 2.25rem;
+}
+
+.record-content-main .ivu-select {
+    width: 99%;
+}
+
+.record-content-main .ivu-radio-group {
+    line-height: 0.75rem !important;
+}
+
+.add-zf-waysMain .ivu-form-item {
+    margin-bottom: 0rem !important;
+}
+
+.add-zf-waysMain .ivu-input-wrapper {
+    margin: 0.25rem 0 0.75rem 0;
+}
+
+.add-zf-margin .ivu-input-wrapper {
+    margin: 0.25rem 0 0 0;
+}
+
+.add-zf-waysMain .ivu-select {
+    margin: 0.3rem 0 0.75rem 0;
+}
+
+.tab-content .ivu-checkbox-group {
+    display: inline-block;
+}
+
+.tab-content .ivu-checkbox-group-item {
+    margin-right: 1.75rem;
+}
+
+/*账号设置的国际吗下拉*/
+
+.accountPhone {
+    background: none !important;
+}
+
+.accountPhone .ivu-form-item-error-tip {
+    padding-left: 0.35rem !important;
+    padding-right: 0.35rem !important;
+}
+
+.accountPhone .nationalDrop {
+    border-left: 1px solid #eee !important;
+    border-top: 1px solid #eee !important;
+    border-bottom: 1px solid #eee !important;
+    border-right: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.accountPhone .ivu-form-item-error .nationalDrop {
+    border-color: #e13232 !important;
+}
+
+.accountPhone .ivu-form-item-error .ivu-icon {
+    color: #e13232 !important;
+}
+
+.accountPhone .nationalNum .ivu-dropdown-rel a {
+    font-size: 0.7rem !important;
+    color: #666 !important;
+    padding-left: 0.5rem !important;
+}
+
+.accountPhone ::-webkit-scrollbar {
+    width: 0.5rem;
+    height: 10rem;
+    background: #fff;
+}
+
+.accountPhone ::-webkit-scrollbar-thumb {
+    border-radius: 0.25rem;
+    background: #f4f4f4;
+    -webkit-box-shadow: none;
+}
+
+.accountPhone ::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+}
+
+.accountPhone .nationalPhone .ivu-select-dropdown,
+.accountPhone .nationalNum .ivu-select-dropdown {
+    width: 23rem !important;
+    height: 10rem;
+    padding-right: 0.25rem !important;
+    will-change: auto !important;
+}
+
+.accountPhone .nationalPhone .ivu-select-dropdown .ivu-select-not-found,
+.accountPhone .nationalNum .ivu-select-dropdown .ivu-select-not-found,
+.accountPhone .nationalNum .ivu-select-dropdown .ivu-dropdown-menu {
+    background: #ddd !important;
+}
+
+.accountPhone .nationalNum .ivu-select-dropdown .ivu-dropdown-menu .ivu-dropdown-item {
+    padding: 0 0.25rem 0 0.5rem;
+    height: 1.95rem;
+    line-height: 1.95rem;
+    /*border-bottom: 1px solid #eee;*/
+    color: #666;
+    background: #fff;
+}
+
+.accountPhone .nationalNum .ivu-select-dropdown .ivu-dropdown-menu .ivu-dropdown-item:hover {
+    color: #f2ba2f;
+    background: #edeef4;
+}
+
+.accountPhone .nationalNum .ivu-dropdown-rel a .ivu-icon {
+    margin-left: 1.55rem;
+    top: 0.7rem;
+}
+
+/*交易中心右下角的弹框的input校验*/
+
+.dealPinInputcs .ivu-form-item {
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+/*交易中心右下角的二次验证下拉和input的样式*/
+
+.dealTwoTest .selectTwoTestDeal {
+    margin-bottom: 0rem !important;
+}
+
+.dealTwoTest .ivu-form-item-label {
+    font-size: 0.7rem;
+    color: #fff;
+    height: 2.7rem;
+    line-height: 0.7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.dealTwoTest .ivu-form-item-required .ivu-form-item-label:before {
+    content: '' !important;
+}
+
+.Model-sq_Ad-main-foot .ivu-btn-primary {
+    display: block;
+    min-width: 5rem;
+    height: 2rem;
+    line-height: 2rem !important;
+    color: #ffffff;
+    background-color: #f3ba2f;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    margin: 1.5rem auto 1rem;
+    padding: 0 0.5rem;
+    /*cursor: pointer;*/
+}
+
+.Model-sq_Ad-main-foot .ivu-btn-primary[disabled]:hover {
+    background: #ccc;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.Model-sq_Ad-main-foot .ivu-btn-primary:hover {
+    background-color: #f3ba2f;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.dealTwoTest .selectTwoTestDeal .ivu-select-single .ivu-select-selection {
+    height: 2rem;
+    background: #272c39;
+    border-color: #eee;
+    box-shadow: none;
+}
+
+.dealTwoTest .selectTwoTestDeal .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.dealTwoTest .selectTwoTestDeal .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 0.5rem;
+    color: #fff;
+}
+
+.dealTwoTest .ivu-select-selection .ivu-select-placeholder {
+    color: #999 !important;
+}
+
+.dealTwoTest .ivu-select-selection-focused,
+.dealTwoTest .ivu-select-selection:hover {
+    color: #fff;
+}
+
+.dealTwoTest .selectTwoTestDeal .ivu-select-item-selected,
+.testTwiceSelector .ivu-select-item-selected:hover {
+    color: #fff !important;
+    /*  background: #edeef4 !important;*/
+}
+
+.dealTwoTest .selectTwoTestDeal .ivu-select {
+    width: 23rem !important;
+}
+
+.dealTwoTest .selectTwoTestDeal .ivu-select-item:hover {
+    background: rgba(39, 44, 57, 0.6);
+    color: #fff;
+}
+
+.testTwiceSelector .ivu-select-dropdown {
+    margin: 0 !important;
+}
+
+.dealTwoTest .selectTwoTestDeal .ivu-select-dropdown-list {
+    padding-top: 0.1rem;
+    padding-bottom: 0.5rem;
+    background: #171a21;
+}
+
+.dealTwoTest .ivu-select-item-selected.ivu-select-item-focus {
+    background: rgba(39, 44, 57, 0.6) !important;
+}
+
+.dealTwoTest .ivu-select-item-focus {
+    background: transparent;
+}
+
+.dealTwoTest .ivu-select-item {
+    padding-left: 0.5rem !important;
+    color: #fff;
+}
+
+.dealTwoTest .ivu-form-item-error .ivu-select-selection {
+    border-color: #ed3f14 !important;
+}
+
+.dealTwoTest .selectTwoTestDeal .ivu-form-item-error-tip {
+    top: 0.6rem !important;
+}
+
+.offer-start .ivu-form-item-error-tip {
+    width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #eee;
+    top: -100%;
+    left: 1.5rem;
+    border-radius: 0.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.25rem 1px #eee;
+    padding: 0 0.1rem;
+    font-size: 0.6rem;
+    color: #e13232;
+    z-index: 10;
+}
+.offer-start.offer-new-start .ivu-form-item-error-tip {
+	left: -0.8rem;
+}
+
+.offer-start .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    transform: rotate(225deg);
+    background: #fff;
+}
+
+.offer-end .ivu-form-item-error-tip {
+    width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #eee;
+    top: -100%;
+    left: -0.95rem;
+    border-radius: 0.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.25rem 1px #eee;
+    padding: 0 0.1rem;
+    font-size: 0.6rem;
+    color: #e13232;
+    z-index: 10;
+}
+.offer-end.offer-new-end .ivu-form-item-error-tip {
+	right: -0.5rem;
+}
+
+.offer-end .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    transform: rotate(225deg);
+    background: #fff;
+}
+
+.add-zf-waysMain .ivu-form-item-content {
+    line-height: normal !important;
+}
+
+/*交易中心发送验证码校验*/
+
+.sendCodeDealCenter .sendCodeAll .ivu-input {
+    height: 2rem;
+    border-right: 0;
+    border-color: #eee;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 0.5rem;
+    font-size: 0.6rem;
+    color: #fff;
+    height: 2rem;
+    line-height: 2rem;
+    width: 18.5rem;
+    background: #272c39;
+}
+
+.sendCodeDealCenter .ivu-form-item-error .ivu-input {
+    border-color: #ed3f14;
+}
+
+.sendCodeDealCenter .sendCodeAll .ivu-form-item-error-tip {
+    top: -2.1rem !important;
+}
+
+.sendCodeDealCenter .googleAll .ivu-input {
+    height: 2rem;
+    border-radius: 0.25rem;
+    background: #272c39;
+    border-color: #eee;
+    font-size: 0.6rem;
+    color: #fff;
+    line-height: 2rem;
+}
+
+.sendCodeDealCenter .googleAll .ivu-form-item-error .ivu-input {
+    border-color: #ed3f14;
+}
+
+.sendCodeDealCenter .googleAll .ivu-form-item-error-tip {
+    top: -2.1rem !important;
+}
+.ivu-input-wrapper .ivu-input-type{
+    padding-left: 2rem;
+}
+.sendCodeDealCenter .pinContent .ivu-input {
+    width: 18.5rem;
+    height: 2rem;
+    border-color: #eee;
+    border-radius: 0.25rem;
+    font-size: 0.6rem;
+    color: #000;
+    padding-left: 0.5rem;
+    background: #fff;
+}
+
+.sendCodeDealCenter .pinContent .ivu-form-item-error .ivu-input {
+    border-color: #ed3f14;
+}
+
+.tab-content .ivu-checkbox-disabled.ivu-checkbox-checked .ivu-checkbox-inner {
+    background-color: #2d8cf0;
+    border-color: #2d8cf0;
+}
+
+/*添加黑名单提示框*/
+
+.blackName-temp .ivu-form-item-error-tip {
+    width: auto;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 1px solid #eee;
+    top: -2.25rem;
+    left: 45%;
+    border-radius: 0.25rem;
+    background: #fff;
+    box-shadow: 0 0 0.25rem 1px #eee;
+    padding: 0 1rem;
+    font-size: 0.6rem;
+    color: #e13232;
+}
+
+.blackName-temp .ivu-form-item-error-tip:before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 1.7rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: none;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    transform: rotate(225deg);
+    background: #fff;
+}
+
+/*textera*/
+
+#textBox::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 0.25rem;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 0.2rem;
+}
+
+#textBox::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 0.4rem;
+    background: #f4f4f4;
+    -webkit-box-shadow: none;
+}
+
+#textBox::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    background: #fff;
+    border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+}
+
+.otccurrency .ivu-spin-fix .ivu-spin-main {
+    top: 12.5rem;
+}
+
+.moneybagbody .ivu-spin-fix .ivu-spin-main {
+    top: 12.5rem;
+}
+
+.moneybagbody .ivu-spin-fix {
+    background-color: #171a21;
+}
+
+.approve .ivu-checkbox-disabled+span {
+    color: #333;
+}
+
+.record-content-main .ivu-form-item-error .ivu-input {
+    border: 1px solid #ed3f14 !important;
+}
+
+.ad-top-right .ivu-select-single .ivu-select-selection {
+    min-width: 4rem;
+}
+
+.otc-order .ivu-select-item-selected.ivu-select-item-focus {
+    background: #f3f3f3;
+    color: #333;
+}
+
+.submit-order .ivu-btn-primary[disabled] {
+    width: 14.5rem !important;
+    height: 2rem !important;
+    color: #fff !important;
+}
+
+.order .ivu-radio {
+    margin-bottom: 0.35rem;
+}
+
+.pageOrder .ivu-page-item a,
+.pageOrder a {
+    color: #fff;
+}
+
+.order .bank_cards .ivu-radio-wrapper {
+    width: 9rem;
+}
+
+/* 我的广告 */
+.ad-top-right .ivu-select-selection {
+    min-width: 4.4rem;
+    height: 1.2rem;
+    border-radius: 0;
+}
+
+.ad-top-right .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+.ad-top-right .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    line-height: 1.2rem;
+}
+
+.ad-top-right .ivu-form-item-content {
+    line-height: 1.4rem;
+}
+
+.ad-top-right .ivu-date-picker {
+    width: 4.4rem;
+}
+
+.ad-top-right .ivu-row {
+    width: 10rem;
+}
+
+.ad-top-right .ivu-form-item-content .ivu-input-wrapper .ivu-input {
+    border-radius: 0;
+    height: 1.2rem;
+}
+
+.record-content-main .main-left-top::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.record-content-main .main-left-top {
+    height: 4rem;
+
+    width: 58rem;
+    margin: 0 auto 2.45rem;
+    box-shadow: 0 0 0.6rem #D9D9D9;
+
+}
+
+.record-content-main .my-balance {
+    line-height: 3.5rem;
+    font-size: 0.9rem;
+    color: #333E63;
+    padding-left: 2.25rem;
+
+}
+
+.record-content-main .my-balance span {
+    padding-left: 0.75rem;
+    font-size: 1.8rem;
+    color: #4F69C2;
+    font-weight: 700;
+}
+
+.record-content-main .tab-content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.record-content-main .tab-content {
+    position: relative;
+}
+
+.record-content-main .tab-content-line {
+    position: absolute;
+    width: 0.1rem;
+    height: 92%;
+    /* background-color: #999; */
+    border-left: 1px solid #ccc;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/* otc交易 */
+.otc-user-list {
+    padding-bottom: 1.5rem;
+}
+
+.otc-user-list i {
+    font-style: normal;
+}
+
+.otc-user-list .otc-list-top {
+    border-bottom: 1px solid #D9D9D9;
+    overflow: hidden;
+    padding: 2.5rem 0rem 0;
+    line-height: 2rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.otc-user-list .otc-list-top li {
+    float: left;
+    width: 15%;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.otc-user-list .otc-list-cn {}
+
+.otc-user-list .otc-list-cn li::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.otc-user-list .otc-list-cn li {
+    border-bottom: 1px solid #D9D9D9;
+    width: 59rem;
+    margin: 0 auto;
+}
+
+.otc-user-list .otc-list-cn .otc-com {
+    width: 15%;
+    float: left;
+    height: 3.7rem;
+    line-height: 3.7rem;
+    font-size: 0.6rem;
+    color: #000;
+    position: relative;
+}
+
+.otc-user-list .otc-list-cn .otc-font-money {
+    color: #489972;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.otc-user-list .otc-list-cn .otc-font-bak {
+    font-size: 0.9rem;
+}
+
+.otc-user-list ul .otc-res-01 {
+    width: 20% !important;
+}
+
+.otc-user-list ul .otc-res-01 em {
+    font-size: 0.7rem;
+    padding: 0 0.25rem;
+    vertical-align: top;
+    font-style: normal;
+}
+
+.otc-user-list ul .otc-res-02 {
+    width: 18% !important;
+}
+
+.otc-user-list ul .otc-res-05 {
+    width: 10% !important;
+}
+
+.otc-user-list ul .otc-res-03 {
+    width: 22% !important;
+}
+
+.otc-user-list .otc-list-cn .cricle {
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    position: relative;
+    background-color: #AED4DF;
+    margin-top: 0.9rem;
+    float: left;
+    margin-right: 0.4rem;
+}
+
+.otc-user-list .otc-list-cn .otc-cursor {
+    cursor: pointer;
+}
+
+.otc-user-list .otc-list-cn .cricle span {
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background-color: #72C33F;
+    box-shadow: 0 0 0rem 0.1rem #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0.2rem;
+}
+
+.otc-user-list .otc-list-cn .cricle i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    color: #4F5F91;
+}
+
+.otc-user-list .otc-list-cn .proper {
+    font-size: 0.7rem;
+    color: #4F5F91;
+
+    /*
+    display: flex;
+    word-wrap: break-word;
+    align-items: center;
+    */
+}
+
+.otc-user-list .otc-list-cn .proper p {
+    line-height: 1.5;
+    word-wrap: break-word;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 0 0.25rem 0 2.35rem;
+    width: 100%;
+    /* font-weight: 700; */
+}
+
+.otc-user-list .otc-list-cn .otc-button {
+    display: inline-block;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    background-color: #5A75CC;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+
+.otc-user-list .otc-list-cn .otc-button .ivu-btn {
+    background-color: #5A75CC;
+    border-color: #5A75CC;
+    width: 100%;
+    height: 100%;
+}
+
+.otc-user-list .otc-list-user-t {
+    height: 3.7rem;
+    line-height: 3.7rem;
+    /* width: 97%; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.otc-user-list .otc-list-user-t:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.otc-user-list .otc-details::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.otc-user-list .otc-details {
+    border-top: 1px solid #D9D9D9;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    /* width: 97%; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.otc-user-list .otcTip-details {
+    float: left;
+    /* overflow: hidden; */
+    margin-left: 24rem;
+    /* width: 27.25rem; */
+}
+
+.otc-user-list .otcTip_details_new {
+    float: left;
+    /* overflow: hidden; */
+    margin-left: 14rem !important;
+    /*width: 27.25rem;*/
+}
+
+.otc-user-list .otcTip {
+    float: left;
+}
+
+.otc-user-list .otc-details .buy_btn_cn {
+    float: left;
+}
+
+.otc-user-list .otc-detail .inputDiv .bgInput {}
+
+.otc-user-list .otc-details .buy_btn {
+    width: 3.5rem;
+    height: 1.5rem;
+    /* line-height: 1.5rem; */
+    text-align: center;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    padding: 0;
+    background-color: #5A75CC;
+    font-size: 0.7rem;
+    color: #fff;
+    margin: 0 0.75rem;
+}
+
+.otc-user-list .otc-details .otcTip-img {
+    float: left;
+    position: relative;
+    top: 0.2rem;
+    margin: 0 0.5rem;
+}
+
+.otc-user-list .ivu-form-item {
+    margin-bottom: 0;
+
+}
+
+.otc-user-list .inputDiv-p {
+    position: relative;
+}
+
+.otc-user-list .inputDiv-p i {
+    position: absolute;
+    font-size: 0.7rem;
+    color: #999999;
+    right: 0.5rem;
+    top: 0rem;
+}
+
+.otc-user-list .ivu-btn-primary:hover {
+    background-color: #5A75CC !important;
+}
+
+.otc-user-list .buy_btn_cancel {
+    font-size: 0.7rem;
+    color: #999999;
+    vertical-align: middle;
+}
+
+.otc-user-list .box_sh_br {
+    box-shadow: 0 0 0.35rem 0 #D3D3D3;
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.otc-user-list .otc-attestation {
+    font-size: 0.7rem;
+    color: #202C00;
+    line-height: 3.5rem;
+}
+
+.otc-user-list .otc-attestation a {
+    color: #5A75CC;
+}
+
+.otc-user-list .otc-tim-lim {
+    font-size: 0.7rem;
+    color: #999999;
+}
+
+.otc-user-list .inputDiv-s {
+    position: absolute;
+    font-size: 0.6rem;
+    color: #f40;
+    bottom: -1.4rem;
+    left: 0.15rem;
+}
+
+.otc-user-list .inputNum-m {
+    position: absolute;
+    font-size: 0.6rem;
+    color: #f40;
+    bottom: -1.4rem;
+    left: 1.5rem;
+}
+
+/* otc交易 商家列表 */
+.adver_content {}
+
+/*
+.adver_content .otc-details-a
+*/
+.adver_content .otc-details-a {
+    border-top: 1px solid #D9D9D9;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    /* width: 97%; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.adver_content .otc-details-a::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.adver_content .otc-details-a .otcTip-details-a {
+    float: left;
+    margin-left: 32.7rem;
+}
+
+.adver_content .otc-details-a .otcTip-a {
+    float: left;
+}
+
+.adver_content .otc-details-a .inputDiv-a {}
+
+.adver_content .otc-details-a .inputDiv-p {
+    position: relative;
+}
+
+.adver_content .otc-details-a .bgInput {
+    width: 7.9rem;
+    height: 1.5rem;
+    border: 1px solid #dddee1;
+    border-radius: 0.2rem;
+    float: left;
+    line-height: 1.5rem;
+    background: #fff;
+    padding-left: 0.5rem;
+}
+.adver_content .otc-details-a .bgInput:hover{
+    border: 1px solid #4f69c2;
+}
+
+.adver_content .otc-details-a .otcTip-img {
+    float: left;
+    position: relative;
+    top: 0.2rem;
+    margin: 0 0.5rem;
+}
+
+.adver_content .otc-details-a .buy_btn_a {
+    width: 3.5rem;
+    height: 1.5rem;
+    /* line-height: 1.5rem; */
+    text-align: center;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    padding: 0;
+    background-color: #5A75CC;
+    font-size: 0.7rem;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.adver_content .otc-details-a .buy_btn_cancel {
+    font-size: 0.7rem;
+    color: #999999;
+    vertical-align: middle;
+    white-space:nowrap;
+}
+
+.adver_content .otc-details-a .otc-tim-lim {
+    font-size: 0.7rem;
+    color: #999999;
+}
+
+.adver_content .otc-details-a .box_sh_br {
+    box-shadow: 0 0 0.35rem 0 #D3D3D3;
+}
+
+.adver_content .otc-details-a .inputDiv-p {
+    position: relative;
+
+}
+
+.adver_content .otc-details-a .inputDiv-s {
+    font-size: 0.7rem;
+    color: #f40;
+    bottom: -3rem;
+    left: 0.15rem;
+}
+
+.adver_content .otc-details-a .ivu-form-label-right::after {
+    display: block;
+    clear: both;
+    content: ""
+}
+.otc-user-list .otcTip-details-mony {
+	overflow: hidden;
+}
+.otc-user-list .otcTip-details-mony input {
+    width: 7.9rem;
+    height: 1.5rem;
+    border: 1px solid #dddee1;
+    border-radius: 0.2rem;
+    float: left;
+    line-height: 1.5rem;
+    background: #fff;
+    padding-left: 0.5rem;
+    margin-left: 1.25rem;
+}
+.otc-user-list .otcTip-details-mony input:hover{
+    border: 1px solid #4f69c2;
+}
+
+.order-left-bottom .bank_cards .icon_eth {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -0.5rem;
+}
+
+.eth_isshow_model_ {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5)
+}
+
+.eth_isshow_model_ .eth_isshow_model_div {
+    width: 16.5rem;
+    height: 16.5rem;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eth_isshow_model_ .eth_isshow_model_div span {
+    position: absolute;
+    right: 0.85rem;
+    top: 0.85rem;
+    cursor: pointer;
+}
+
+.eth_isshow_model_ .eth_isshow_model_div img {
+    margin: 2rem;
+    width: 13rem;
+    height: 13rem;
+}
+
+.order-left-bottom .bank_cards .icon_eth img {
+    width: 100%;
+}
+
+.tab-content .main-left-middle .ivu-form-item {
+    margin-bottom: 1.65rem;
+}
+
+.otc-ad-top .ad-top-right .ivu-form-item {
+    /* display: none; */
+}
+
+.otc-ad .Model-sq_Ad-main .Protocol_aaa {
+    color: #000
+}
+
+.otc-ad .Model-sq_Ad-main-foot .ivu-btn-primary {
+    background-color: #5A75CC;
+}
+
+.otc-ad .Model-sq_Ad-main-foot .ivu-btn-primary:hover {
+    background-color: #5A75CC;
+}
+
+.login .ivu-btn.regetCode {
+    background: none;
+    width: 9rem;
+    height: 2.4rem;
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 0.3rem;
+    right: -2.5rem;
+    color: #D9D9D9;
+    font-size: 0.7rem;
+}
+
+/* 钱包  */
+.asset-overview-wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*background: #2A366B;*/
+    background: url(/static/img/homeBg.png) no-repeat top center;
+    background-size: 100% 101%;
+}
+
+
+.asset-overview-main {
+    width: 50rem;
+    margin: 2.4rem auto 1.65rem;
+}
+
+/* 资产总览 */
+.asset-header-list {
+    color: #fff;
+    width: 50rem;
+    height: 3.4rem;
+    text-align: center;
+    line-height: 3.4rem;
+    background: #A9B5D6;
+    margin: 0 0 0.4rem 0;
+}
+
+.asset-header-list li {
+    float: left;
+    /* width: 25%; */
+    width: 33.3333333333%;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.asset-header-list .tab-li-active {
+    background: #1F3686;
+}
+
+.overview-right .icon-wrap {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background: #6475AB;
+    text-align: center;
+    line-height: 1.8rem;
+    margin: 0 0.6rem 0 0;
+}
+
+.overview-second .bottom-list {
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+.overview-second .bottom-list li {
+    float: left;
+    width: 33%;
+    border-right: 1px solid #fff;
+    padding: 0 0 0 1.1rem;
+    font-size: 0.9rem;
+}
+
+.overview-second .bottom-list li.no-border {
+    border: none;
+}
+
+.overview-second .bottom-list .two-text {
+    padding: 0.75rem 0 0 0;
+}
+
+.overview-content .overview-left {
+    float: left;
+    width: 12%;
+}
+
+.overview-content .overview-center {
+    float: left;
+    width: 40%;
+    margin: 0.6rem 0 0 0;
+}
+
+.overview-content .overview-right {
+    float: right;
+    width: 37%;
+}
+
+.overview-content .promote {
+    display: inline-block;
+    padding: 0.3rem 0.9rem;
+    text-align: center;
+    line-height: 100%;
+    border: 1px solid #fff;
+    border-radius: 0.2rem;
+    font-size: 0.7rem;
+    margin-left: 1.6rem;
+    cursor: pointer;
+}
+
+.asset-overview-wrap .overview-content {
+    background: #586A9E;
+    /*font-weight: 100;*/
+    padding: 2.5rem 3rem;
+    color: #fff;
+}
+
+.overview-content .overview-second {
+    background: #475E98;
+    padding: 0.75rem;
+    margin: 1.6rem 0;
+    box-shadow: 0 1px 0.6rem 0 rgba(58, 71, 111, .8);
+    border-radius: 0.2rem;
+}
+
+.overview-second .center-main {
+    color: #F5C245;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 1rem 0 1.25rem 0;
+}
+
+.overview-second .sizer {
+    font-size: 2.3rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.overview-second .available-asset {
+    vertical-align: middle;
+    padding: 0 0.5rem 0 0;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+/* 钱包资产 */
+.withdrawCash .withdrawcashselect .ivu-radio-wrapper {
+    color: #fff;
+}
+
+.withdrawCash .withdrawcashselect .ivu-radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-wrap .ivu-tabs-bar {
+    margin: 0 0 0.5rem 0;
+}
+
+.moneybag_transfer .btn-wrap {
+    float: right;
+    margin: 1.5rem 1rem 0 0
+}
+
+.number .ivu-input {
+    height: 2rem;
+    color: #fff;
+}
+
+/* 个人中心  */
+.ivu-tabs .special-height.ivu-tabs-tabpane {
+    height: 35rem !important;
+}
+
+.login-main .login-wrap .login-content .fill_phone:after {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 2rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 5rem;
+    background: #ddd;
+}
+
+/* 钱包币币资产*/
+.dealcentertransfer .tip .ivu-form-item-error-tip {
+    text-align: left;
+}
+
+/*滚动条样式*/
+.ivu-select-dropdown::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 0.2rem;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 0rem;
+}
+
+.ivu-select-dropdown::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 0.25rem;
+    -webkit-box-shadow: inset 0 0 0.25rem rgba(0, 0, 0, 0.2);
+    background: #4F69C2;
+}
+
+.ivu-select-dropdown::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 0.25rem rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: #DDDDDD;
+}
+
+/* 币币资产 */
+.dealcentertransfer .ivu-input {
+    border: 1px solid transparent;
+}
+
+.dealcentertransfer .number .ivu-input {
+    color: #999;
+}
+
+.dealcentertransfer .ivu-input {
+    border: 1px solid #dbdbdb;
+    font-size: 0.7rem;
+}
+.dealcentertransfer .ivu-input:hover {
+    border-color: #5474E4;
+}
+
+/* 币币交易订单 */
+div.ddealrecord-new {
+    background-color: #303d70;
+}
+
+div.ddealrecord-new .deal-record-new {
+    width: 60rem;
+    margin: 2.25rem auto 0;
+    background-color: #475e98;
+    padding: 0;
+}
+
+div.ddealrecord-new .deal-record {
+    border-radius: 0;
+}
+
+div.ddealrecord-new .deal-record-new .record-header {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    line-height: 1;
+    border-bottom: none;
+    background-color: #1d2f6b;
+}
+
+div.ddealrecord-new .deal-record-new .head-left {
+    overflow: hidden;
+    float: left;
+    height: 3rem;
+    margin-left: 1.6rem;
+}
+
+div.ddealrecord-new .head-left a.active,
+div.ddealrecord-new .head-left a.bbactive {
+    height: 3rem;
+}
+
+div.ddealrecord-new .head-left .title {
+    float: left;
+    display: inline-block;
+    font-size: 0.9rem;
+    line-height: 3rem;
+    color: #fff;
+    margin-right: 2.4rem;
+}
+
+div.ddealrecord-new .deal-record-new .head-right {
+    float: left;
+    overflow: hidden;
+    height: 3rem;
+    width: 60rem;
+    margin-top: 1rem;
+}
+
+div.ddealrecord-new .deal-record-new .dealrecord {
+    height: 3rem;
+    background-color: #1d2f6b;
+    /* padding-left: 2.5rem; */
+    flex-direction: row-reverse;
+}
+
+div.ddealrecord-new .head-left a.active,
+div.ddealrecord-new .head-left a.bbactive {
+    border: none
+}
+
+div.ddealrecord-new .dealrecord button {
+    width: 2.95rem;
+    height: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1.2rem;
+    border: none;
+    color: #fff;
+    line-height: 1.2rem;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    border-radius: 0.1rem;
+    background: none;
+}
+
+.selldanz-new {
+    clear: both;
+}
+
+.selldanz-new .mydeal {
+    background: #475e98;
+    padding: 0 1rem;
+}
+
+.selldanz-new .mydeal .table-title ul {
+    color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+    display: block;
+    line-height: 2.5rem;
+}
+
+.selldanz-new .mydeal .table-container ul {
+    display: block;
+    color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+    line-height: 2.5rem;
+}
+
+.selldanz-new .mydeal .opration a {
+    color: #fff;
+}
+.selldanz-new .mydeal .opration a:hover{
+    color: #f3ba2f;
+}
+
+
+.selldanz-new .mydeal .table-title ul li,
+.selldanz-new .mydeal .table-container ul li {
+    float: left;
+    text-align: center;
+}
+
+.selldanz-new .mydeal .table-container ul:hover {
+    background: rgba(0, 0, 0, .2)
+}
+
+.selldanz-new .mydeal .order-time {
+    padding-left: 0;
+}
+
+.selldanz-new .mydeal .order-time{
+    width: 7.5rem !important;
+}
+
+.selldanz-new .mydeal .col2 {
+    width: 3.5rem !important;
+}
+
+.selldanz-new .mydeal .col3 {
+    width: 4.95rem !important;
+}
+.selldanz-new .mydeal .col4{
+    width: 9.1rem !important;
+}
+.selldanz-new .mydeal .col{
+    width: 7.6rem !important;
+}
+.selldanz-new .mydeal .col5{
+    width: 9.1rem !important;
+}
+.selldanz-new .mydeal .col8{
+    width: 3.35rem !important;
+}
+.selldanz-new .mydeal .opration{
+    width: 3.75rem !important;
+}
+
+.selldanz-new .mydeal .opration .twoA {
+    margin-right: 0;
+}
+
+.selldanz-new .pageOrder .ivu-page-item a, .pageOrder a{
+    color: #999;
+}
+/* 币币交易订单列表-下拉 */
+div.dealrecord-new .ivu-select-dropdown {
+    background-color: #fff;
+}
+
+div.dealrecord-new .ivu-select-item {
+    background-color: #fff;
+    color: #999;
+}
+
+div.dealrecord-new .ivu-select-item:hover {
+    background: #EEF2F6;
+}
+
+div.dealrecord-new ::-webkit-scrollbar {
+    width: 0.2rem;
+}
+
+div.dealrecord-new ::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+
+div.dealrecord-new ::-webkit-scrollbar-thumb {
+    background: #4F69C2;
+}
+
+div.dealrecord-new .ivu-select-item {
+    text-align: left;
+    padding-left: 0.8rem;
+}
+
+/* 币币交易订单列表-弹窗 */
+div.repeal-new .box {
+    width: 25rem;
+    background: #fff;
+    height: 14.5rem;
+    padding: 0rem 0 0 0;
+}
+div.repeal-new .close{
+   position: absolute;
+   right: 0.95rem;
+   top: 0.95rem;
+}
+div.repeal-new .transfer-header {
+    color: #191D29;
+    padding: 1.25rem 0 0 1.5rem;
+}
+
+div.repeal-new .tips {
+    color: #999;
+    margin-bottom: 2.5rem;
+    padding-left:1.5rem;
+    margin-top: 1.5rem;
+}
+div.repeal-new .repeal-new-line{
+    width: 100%;
+    height: 0.1rem;
+    border-top: 1px solid #d9d9d9;
+    margin-bottom: 1.75rem;
+}
+div.repeal-new .cancle {
+    color: #999;
+    width: 6rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 0.25rem;
+    border: 1px solid #d9d9d9;
+
+}
+div.repeal-new .transfer{
+    margin-left: 11rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: #4F69C2;
+    line-height: 2rem;
+    margin-right: 1rem;
+}
+
+
+/* 保证金管理 */
+.cashdeposit{
+   width: 100%;
+   background: #303d70;
+   overflow: hidden;
+}
+.cashdeposit .cashdeposit-cn{
+    width: 50rem;
+    height: 50rem;
+    background: #475e98;
+    margin: 2.25rem auto 1.5rem;
+
+}
+.cashdeposit .cashdeposit-h3{
+    height: 3rem;
+    line-height: 3rem;
+    color: #f3ba2f;
+    font-size: 0.9rem;
+    padding-left: 0.75rem;
+    font-weight: 400;
+    background: #1d2f6b;
+}
+.cashdeposit .cashdeposit-top,.cashdeposit .cashdeposit-bot{
+    overflow: hidden;
+    margin: 0 1.25rem;
+    border-bottom: 1px solid #fff;
+}
+.cashdeposit .cashdeposit-top li{
+    float: left;
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 2.5rem;
+    height: 2.5rem;
+}
+.cashdeposit .cashdeposit-bot li{
+    float: left;
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 2.5rem;
+    height: 2.5rem;
+}
+.cashdeposit .cashdeposit-bot li a{
+    color: #fff;
+}
+.cashdeposit .cashdeposit-bot li a:hover{
+    color: #f3ba2f;
+}
+.cashdeposit .cashdeposit-c_1{
+    width: 9.5rem;
+}
+.cashdeposit .cashdeposit-c_2{
+    width: 8rem;
+}
+.cashdeposit .cashdeposit-c_3{
+    width: 14.5rem;
+}
+.cashdeposit .cashdeposit-c_4{
+    width: 8.5rem;
+}
+.cashdeposit .cashdeposit-c_5{
+    width: 7rem;
+}
+.cashdeposit .cashdeposit_g{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(51,51,51,.6);
+}
+.cashdeposit .cashdeposit_g_n{
+    position: absolute;
+    width: 27rem;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0.25rem;
+    padding-top: 2.3rem;
+}
+.cashdeposit .cashdeposit_g_n .icon-wrong{
+    font-size: 1rem;
+    color: #b5b6ba;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.cashdeposit .cashdeposit_g_n h3{
+    font-size: 0.9rem;
+    color: #191D29;
+    font-weight: 400;
+    padding: 0 2.7rem 1.5rem;
+}
+.cashdeposit .cashdeposit_g_n p{
+    font-size: 0.7rem;
+    color: #999;
+    margin: 0rem 2.7rem ;
+    line-height: 1.5rem;
+}
+.cashdeposit .cashdeposit_g_n div{
+    overflow: hidden;
+    border-top: 1px solid #e8e8e8;
+    padding: 1.45rem 0;
+    margin-top: 1.45rem;
+}
+.cashdeposit .cashdeposit_g_n div a{
+    width: 6rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 0.25rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    float: right;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+.cashdeposit .cashdeposit_g_n div a:nth-child(1){
+    color: #999;
+    border: 1px solid #d9d9d9;
+    margin: 0 1rem;
+}
+.cashdeposit .cashdeposit_g_n div a:nth-child(2){
+    color: #fff;
+    background: #4F69C2;
+
+}
+
+/* 钱包记录 */
+.moneybag_transfer .btn-wrap {
+    margin-top: 0.65rem;
+}
+
+.otcrecord .pageOrder .ivu-page-item-active a,
+.record_box .pageOrder .ivu-page-item-active a,
+.dealcenterrecord .pageOrder .ivu-page-item-active a {
+    color: #12151a;
+}
+.otc-order .pageOrder .ivu-page-item a, .pageOrder a{
+    color: #999;
+}
+.MyAdvertising .pageOrder .ivu-page-item a, .MyAdvertising  .pageOrder a{
+    color: #999;
+}
+.MyAdvertising .pageOrder .ivu-page-item:hover{
+    background: #eee;
+}
+.ddealrecord-new .repeal{
+    height: 100%;
+}
+.otcmoneybag .otctransfer .transfer-header{
+    color: #191D29;
+}
+.otcmoneybag .otctransfer .text-12-999{
+    color: #999;
+}
+.otcmoneybag .otctransfer .box{
+    box-sizing: content-box;
+    padding: 1rem 2rem 1rem 2rem;
+    width: auto;
+}
+.otcmoneybag .otctransfer .input-title{
+    color: #999;
+}
+.otcmoneybag .otctransfer .cancle{
+    color: #999;
+}
+
+
+.withdrawCash .ivu-select-large.ivu-select-single .ivu-select-selection {
+    height: 2rem;
+    line-height: 2rem;
+}
+.withdrawCash .ivu-select-large.ivu-select-single .ivu-select-selection:hover {
+    border-color: #DEDEDE;
+}
+.withdrawCash .ivu-select-item-selected, .ivu-select-item-selected:hover {
+    color: #495060;
+    background: #EEF2F6;
+}
+.withdrawCash .ivu-select-large.ivu-select-single .ivu-select-selection .ivu-select-placeholder, .ivu-select-large.ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    line-height: 2rem;
+}
+.withdrawCash  .input-phone .ivu-input{
+    margin-left: -1px;
+    height: 2rem;
+    color: #495060 !important;
+    border: 0rem solid #fff!important;
+}
+.withdrawCash .cash .input-phone .ivu-input:focus {
+    border: none!important;
+}
+.withdrawCash  .get-phone-verifi {
+    position: absolute;
+    right: 0.25rem;
+    bottom: 0.25rem;
+    width: 4.9rem;
+    height: 1.4rem;
+    line-height: 0.8rem;
+}
+.withdrawCash .tip .ivu-form-item-error-tip {
+    color: red;
+    border: none !important;
+    background: transparent !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.withdrawCash .tip .ivu-form-item-error-tip:before {
+    content: " ";
+    height: 0;
+    width: 0;
+    border: none;
+}
+.withdrawCash .cash .ivu-form-item-error-tip {
+    top: 2rem;
+}
+.ddealrecord-new .TradParticulars{
+    height: 100%;
+}
+.withdrawCash .money-pass .ivu-input {
+    margin-left: 2rem;
+    width: 23rem;
+    color: #000 !important;
+}
+.withdrawCash .select-authMehod .ivu-btn-primary {
+    background: #5A74C9;
+}
+
+.adIntroduction .blackName-temp{
+    width: 100% !important;
+    height: 100% !important;
+}
+.order-lw666 .model_footer{
+    padding: 1.5rem 2rem;
+}
+.MyAdvertising .otc-ad #tempModel-undo{
+    width: 100% !important;
+    height: 100% !important;
+}
+.asset-overview-wrap .moneybag_transfer .transfer-select .tip .ivu-select-item{
+    color: #666B79;
+}
+.dealMore .asset-overview-wrap-pan{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background: #2A366B; */
+    background: url(/static/img/homeBg-pan.png) no-repeat bottom center;
+    background-size: contain;
+}
+.record_box_new .table-title .tr-first th{
+    text-align: center !important;
+    padding: 0 !important;
+}
+.record_box_new .table-title .tr-first th:nth-child(1){
+    width: 7.5rem !important;
+}
+.record_box_new .table-title .tr-first th:nth-child(2){
+    width: 7.5rem !important;
+}
+.record_box_new .table-title .tr-first th:nth-child(3){
+    width: 8.9rem !important;
+}
+.record_box_new .table-title .tr-first th:nth-child(4){
+    width: 9.5rem !important;
+    /* padding-right: 9.5rem !important; */
+}
+.record_box_new .table-title .tr-first th:nth-child(5){
+    width: 14.1rem !important;
+}
+.record_box_new .table-container tr td{
+    padding: 0 !important;
+    text-align: center;
+}
+.record_box_new .table-container tr td:nth-child(1){
+    width: 7.5rem !important;
+}
+.record_box_new .table-container tr td:nth-child(2){
+    width: 7.5rem !important;
+}
+.record_box_new .table-container tr td:nth-child(3){
+    width: 8.9rem !important;
+}
+.record_box_new .table-container tr td:nth-child(4){
+    width: 9.5rem !important;
+}
+.record_box_new .table-container tr td:nth-child(5){
+    width: 14.1rem !important;
+}
+
+.record_box_ll .record{
+    padding: 1.5rem 0rem 0 !important;
+}
+.record_box_ll .record{
+    padding-top: 0 !important;
+}
+.record_box_ll .tr-first th{
+    text-align: center !important;
+    padding: 0 !important;
+}
+.record_box_ll .tr-first th:nth-child(1){
+    width: 10rem !important;
+}
+.record_box_ll .tr-first th:nth-child(2){
+    width: 10rem !important;
+}
+.record_box_ll .tr-first th:nth-child(3){
+    width: 10rem !important;
+}
+.record_box_ll .tr-first th:nth-child(4){
+    width: 10rem !important;
+}
+.record_box_ll .tr-first th:nth-child(5){
+    width: 7.5rem !important;
+}
+.record_box_ll .table-container tr td{
+    padding: 0 !important;
+    text-align: center !important;
+}
+.record_box_ll .table-container tr td:nth-child(1){
+    width: 10rem !important;
+}
+.record_box_ll .table-container tr td:nth-child(2){
+    width: 10rem !important;
+}
+.record_box_ll .table-container tr td:nth-child(3){
+    width: 10rem !important;
+}
+.record_box_ll .table-container tr td:nth-child(4){
+    width: 10rem !important;
+}
+.record_box_ll .table-container tr td:nth-child(5){
+    width: 7.5rem !important;
+}
+.record_box_ll .record_box .box{
+    box-shadow:none !important;
+    border-radius:0 !important;
+}
+.selldanz-new .boxx ::-webkit-scrollbar-thumb,.boxx .transactionFormDetails .formDetailsContent::-webkit-scrollbar-thumb{
+    background-color: #4f69c2 !important;
+  }
+
+  /* 国际码 样式   */
+.national-wrap {
+	display: flex;
+}
+.national-wrap .national-left {
+	flex: 1;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+.national-wrap .national-right {
+	flex: 0.2;
+	padding-right: 0.5rem;
+	text-align: right;
+}
+
+.ivu-select-dropdown .search-input .ivu-input-icon{
+    right: 0.8rem;
+}
+
+.ivu-select-dropdown .search-input .ivu-input {
+  font-size: 0.7rem;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  padding: 0 0.8rem;
+  display: block;
+  height: 1.8rem;
+}
+
+.ivu-select-dropdown .search-input .ivu-input:focus {
+    outline: 0!important;
+    border: 0!important;
+}
+
+.ivu-select-dropdown .ivu-dropdown-menu  .search-input{
+    border-bottom: 1px solid #eee;
+    display: block;
+    background: #fff;
+}
+
+/* 我的广告列表   */
+.tabel-content .ivu-table-cell {
+	padding: 0 0 0 10px;
+}
+.charge-money  {
+    position: relative;
+}
+.charge-money .ivu-modal-header {
+    display: none;
+}
+.charge-money .ivu-modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0!important;
+}
+.charge-money .ivu-modal-body .ivu-form-item:nth-of-type(1) .ivu-form-item-label {
+    font-size: 1rem!important;
+}
+.charge-money .ivu-modal-body .ivu-form-item:nth-of-type(2) {
+    width: 100%;
+    margin-left: 0.5rem;
+    border-bottom: 0.05rem solid #d9d9d9;
+}
+.charge-money .ivu-modal-body .ivu-form-item:nth-of-type(3) {
+}
+.charge-money .ivu-modal-body .ivu-form-item:nth-of-type(3) button {
+    padding: 0;
+    width: 5.6rem!important;
+    height: 2.2rem!important;
+    font-size: 0.8rem;
+    /* margin: 1.8rem 0; */
+}
+.charge-money .ivu-modal-body .ivu-form-item:nth-of-type(3) button:nth-of-type(1) {
+    background-color: #455EBA;
+    margin-right: 1rem;
+    margin-left: 12rem;
+}
+.charge-money .ivu-modal-body .ivu-form-item:nth-of-type(3) button:nth-of-type(2) {
+    background-color: #fff;
+    border: 0.05rem solid #d9d9d9;
+    margin-right: 1rem;
+    color: #000;
+}
+.charge-money .ivu-modal-footer {
+    margin-top: -1.5rem;
+    padding: 0;
+    display: none;
+}
+.charge-money .ivu-modal-footer button{
+    padding: 0;
+    width: 5.6rem!important;
+    height: 2.2rem!important;
+    margin: 1.8rem 0;
+    /* 455EBA */
+}
+.charge-money .ivu-modal-footer button:nth-of-type(1) {
+    float: right;
+    background-color: #fff;
+    border: 0.05rem solid #d9d9d9;
+    margin-right: 1rem;
+}
+.charge-money .ivu-modal-footer button:nth-of-type(2) {
+    background-color: #455EBA;
+    margin-right: 1rem;
+}
+.charge-money  .ivu-form-item {
+    display: flex;
+}
+.charge-money  .ivu-form-item:nth-of-type(1) {
+    margin-top: 3.2rem;
+}
+.charge-money  .ivu-form-item .ivu-form-item-label {
+    font-size: 0.8rem;
+    color: #000;
+}
+.charge-money  .ivu-form-item .ivu-input {
+    width: 15.9rem;
+    font-size: 0.9rem;
+}
+.charge-money .ivu-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.charge-money  .band-pay {
+    position: absolute;
+    top: -5rem;
+    left: 0rem;
+    width: 32rem;
+    height: 41rem;
+    box-shadow: 0 0.05rem 0.6rem 0 rgba(0,0,0,.5);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    background: #eee;
+}
+.charge-money .band-pay .pay-header {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 3rem;
+    border-bottom: 0.05rem solid #eee;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.charge-money .pay-header span {
+    font-size: 1rem;
+}
+.charge-money .band-pay .close {
+    margin-left: auto;
+    cursor: pointer;
+}
+.charge-money .pay-content {
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+}
+.charge-money .pay-content iframe {
+    width: 100%;
+    height: 93%;
+    border: none;
+}
+.charge-money .is-Close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+}
+.charge-money .is-Close .close-content {
+    width: 20rem;
+    height: 13.45rem;
+    background-color: #fff;
+}
+.charge-money .is-Close  .close-top {
+    position: relative;
+    height: 8rem;
+    padding: 2.3rem 2rem;
+    box-sizing: border-box;
+    border-bottom: 0.05rem solid #eee;
+}
+.charge-money .is-Close .title {
+    color: #495060;
+}
+
+.charge-money .is-Close  .tips {
+    margin-left: 2rem;
+    margin-top: 1.6rem;
+    font-size: 0.9rem;
+}
+.charge-money   .close-top .icon {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+.charge-money  .close-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.45rem;
+}
+.charge-money  .close-bottom button {
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.7rem;
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+.charge-money  .close-bottom button.submit {
+    margin-right: 1rem;
+    background-color: #4f69c2;
+    color: #fff;
+}

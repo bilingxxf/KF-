@@ -1,0 +1,30 @@
+.redTextColor {
+    color: #d84a45 !important;
+}
+.greenTextColor {
+    color: #21a960 !important;
+}
+
+.toppp{
+    color: #fff;
+    font-size: 0.6rem;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background-color: #1d1f29;
+}
+.toppp .top-first {
+    float: left;
+    margin-left: 0.7rem;
+}
+.toppp .top-more {
+    float: right;
+    margin-right: 0.7rem;
+    color: #feb313;
+    cursor: pointer;
+}
+.disabled {
+    color: #999 !important;
+    cursor: not-allowed !important;
+}
